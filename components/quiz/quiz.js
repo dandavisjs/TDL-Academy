@@ -86,7 +86,7 @@ const Quiz = ({ questions, title }) => {
                                 <div className="questions ">
                                     {questions[n].answers.map((answer, i) => {
                                         return (
-                                            <div key={i} onClick={() => !selected && handleCheck(i + 1)} style={questions[n].answer === ++i ? { backgroundColor: '#F7F7FC', color: 'white' } : null} className="noselect">
+                                            <div key={i} onClick={() => !selected && handleCheck(i + 1)} style={questions[n].answer === ++i ? { backgroundColor: "#498E3B", color: 'white' } : null} className="noselect">
                                                 <span >
                                                     {translate ? answer.rus : answer.eng}
                                                 </span>
