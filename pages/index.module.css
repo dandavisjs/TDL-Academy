@@ -1,0 +1,46 @@
+.main {
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.main > h1 {
+    text-align: center;
+}
+
+.work {
+    background-color: #F7F7FC;
+    width: 380px;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work > h4 {
+    color: #3E3E78;
+    text-decoration: underline;
+}
+
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.list > a {
+    background-color: #F7F7FC;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
