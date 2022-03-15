@@ -61,7 +61,7 @@ const Quiz = ({ questions, title }) => {
 
     return (
         <div className={styles.main}>
-            <h3 style={{ textAlign: 'center' }}>{title}</h3>
+            <h1 style={{ textAlign: 'center' }}>{title}</h1>
             <div className={styles.head}>
                 <div className={styles.lang}>
                     <button onClick={() => setTranslate(!translate)}>Перевод</button>
@@ -73,9 +73,10 @@ const Quiz = ({ questions, title }) => {
                     <Stopwatch />
                 </div>
             </div>
-            {finished ?
+            {finished ? wrong.length !== 0 ?
                 <>
-                    <h3>Неверные Ответы</h3>
+                    <h2>Неверные Ответы</h2>
+                    <p>Просмотрите вопросы на которые вы ответили неверно:</p>
                     {wrong.map((n, i) => {
                         return (
                             <div className={styles.questions} key={i}>
@@ -98,7 +99,7 @@ const Quiz = ({ questions, title }) => {
                         )
                     })}
                 </>
-
+                : <h2>Вы прошли тест без ошибок.</h2>
                 :
                 <div className={styles.questions}>
 
