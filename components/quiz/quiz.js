@@ -68,8 +68,8 @@ const Quiz = ({ questions, title }) => {
                     <span>Язык: {translate ? 'Русский' : 'Английский'}</span>
                 </div>
                 <div >
-                    <span>Вопрос {index + 1} из {general.length}</span>
-                    <span>Верные ответы: {score}</span>
+                    <span>Вопрос <strong>{index + 1} из {general.length}</strong></span>
+                    <span>Верные ответы: <strong>{score}</strong></span>
                     <Stopwatch />
                 </div>
             </div>
