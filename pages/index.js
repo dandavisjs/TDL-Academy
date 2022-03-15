@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Тесты CDL с переводом на русский - academy.truckdriver.help</title>
+        <title>CDL тесты с переводом на русский язык - academy.truckdriver.help</title>
         <meta name="description" content="Тесты CDL с переводом на русский." />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,5 +1,5 @@
 .main {
-    width: 800px;
+    max-width: 800px;
     background-color: white;
     border-radius: 10px;
     padding: 30px 50px;
@@ -15,9 +15,9 @@
 
 .work {
     background-color: #F7F7FC;
-    width: 380px;
+    max-width: 380px;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -41,6 +41,7 @@
     background-color: #F7F7FC;
     border-radius: 10px;
     padding: 15px;
-    width: 300px;
+    max-width: 300px;
+    min-width: 200px;
     text-align: center;
 }

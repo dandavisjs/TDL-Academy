@@ -1,9 +1,13 @@
 
+import { useState } from 'react'
 import styles from './navbar.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import NavItems from './navItems'
 
 export default function Navbar() {
+    const [mobile, setMobile] = useState(false)
+
     return (
         <nav className={styles.navbar}>
             <Link href="/" passHref>
@@ -12,13 +16,15 @@ export default function Navbar() {
                 </a>
             </Link>
             <ul>
-                <Link href="/" passHref={true}>
-                    <li className="pointer"><a><i className="bi bi-file-text"></i>CDL Тесты</a></li>
-                </Link>
-                <Link href="https://www.truckdriver.help" passHref={true}>
-                    <li className="pointer"><a><i className="bi bi-search"></i>Найти Работу</a></li>
-                </Link>
+                <NavItems />
             </ul>
+            <i onClick={() => setMobile(!mobile)} className="bi bi-list bu-m-menu"></i>
+            {mobile && <div className="mobile-nav">
+                <ul>
+                    <NavItems />
+                </ul>
+            </div>
+            }
         </nav >
     )
 }

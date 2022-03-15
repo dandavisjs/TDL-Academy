@@ -17,5 +17,8 @@
     gap: 40px;
 }
 
-.navbar > ul {   
+@media screen and (max-width: 768px) {
+    .navbar > ul {
+        display: none;
+    }
 }

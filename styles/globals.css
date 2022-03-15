@@ -89,6 +89,40 @@ button {
   height: 40px;
 }
 
+.bu-m-menu {
+  display: none;
+  z-index: 100;
+  user-select:none;
+  cursor:pointer;
+}
+
+.mobile-nav {
+  position: absolute;
+  left: 0px;
+  top:50px;
+  min-height: 50px;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  border-bottom: 1px solid #C5C5C5;
+  margin:0;
+  display:none;
+}
+
+.mobile-nav > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0px;
+}
+
+.mobile-nav > ul > li {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+
 .select {
   background-color: rgb(7, 207, 0);
   color: white;
@@ -126,4 +160,16 @@ button {
 
 .pointer {
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-nav {
+    display:block;
+    padding: 20px 0px;
+  }
+
+  .bu-m-menu {
+    display: block;
+    font-size: 24px;
+  }
 }
