@@ -2,4 +2,4 @@
 
 Small quiz app with with Next.JS.
 
-(Preview Live)[https://academy.truckdriver.help]
+[Preview Live](https://academy.truckdriver.help)
