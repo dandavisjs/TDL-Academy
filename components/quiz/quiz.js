@@ -1,5 +1,4 @@
 import { useEffect, useState, useContext } from 'react'
-import general from './questions/general'
 import Questions from './questions'
 import styles from './quiz.module.css'
 import QuizContext from '../../store/quiz-context'
@@ -30,7 +29,7 @@ const Quiz = ({ questions, title }) => {
         setFinished,
         setRunning } = quizCtx
 
-    const next = () => index + 1 === general.length ? handleFinish() : nextPage()
+    const next = () => index + 1 === questions.length ? handleFinish() : nextPage()
     const nextPage = () => {
         setSelected()
         setIndex(index + 1)
@@ -41,7 +40,7 @@ const Quiz = ({ questions, title }) => {
         setFinished(!finished)
     }
 
-    const correct = general[index].answer
+    const correct = questions[index].answer
 
     const handleSelect = (i) => {
         if (selected === i && selected === correct) return false;
@@ -68,7 +67,7 @@ const Quiz = ({ questions, title }) => {
                     <span>Язык: {translate ? 'Русский' : 'Английский'}</span>
                 </div>
                 <div >
-                    <span>Вопрос <strong>{index + 1} из {general.length}</strong></span>
+                    <span>Вопрос <strong>{index + 1} из {questions.length}</strong></span>
                     <span>Верные ответы: <strong>{score}</strong></span>
                     <Stopwatch />
                 </div>
@@ -81,7 +80,7 @@ const Quiz = ({ questions, title }) => {
                         return (
                             <div className={styles.questions} key={i}>
                                 <div >
-                                    <h4>{translate ? general[n].question.rus : general[n].question.eng}</h4>
+                                    <h4>{translate ? questions[n].question.rus : questions[n].question.eng}</h4>
                                 </div>
                                 <div className="questions ">
                                     {questions[n].answers.map((answer, i) => {
