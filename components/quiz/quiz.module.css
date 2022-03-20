@@ -1,5 +1,5 @@
 .main {
-    max-width: 600px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -49,6 +49,7 @@
 
 @media screen and (max-width: 768px) {
     .head {
+        
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -56,4 +57,7 @@
         justify-content: space-between;
     }
 
+    .main {
+        max-width: 600px;
+    }
 }
