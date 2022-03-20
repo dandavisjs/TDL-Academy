@@ -49,7 +49,6 @@
 
 @media screen and (max-width: 768px) {
     .head {
-        
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
