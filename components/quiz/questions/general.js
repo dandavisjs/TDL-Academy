@@ -3,7 +3,7 @@ const general = [
         answer: 1,
         question: {
             eng: "To prevent a load from shifting, there should be at least one tie down for every ___ feet of cargo.",
-            rus: "text"
+            rus: "Чтобы предотвратить смещение груза, на каждые ___ футов груза должно приходиться как минимум одно крепление."
         },
         answers: [
             {
@@ -24,7 +24,7 @@ const general = [
         answer: 2,
         question: {
             eng: "You are driving a 40 foot vehicle at 35 mph. The road is dry, and visibility is good. What is the least amount of space you should keep in front of your vehicle to be safe?",
-            rus: "2text"
+            rus: "Вы едете на 40-футовом автомобиле со скоростью 35 миль в час. Дорога сухая, видимость хорошая. Какое наименьшее количество пространства, которое вы должны оставить перед своим автомобилем, чтобы быть в безопасности?"
         },
         answers: [
             {
@@ -45,20 +45,20 @@ const general = [
         answer: 3,
         question: {
             eng: "You are traveling down a long, steep hill. Your brakes get so hot that they fail. What should you do?",
-            rus: "3text"
+            rus: "Вы спускаетесь с длинного крутого холма. Ваши тормоза нагреваются настолько, что отказывают. Что вы должны сделать?"
         },
         answers: [
             {
                 eng: 'Downshift',
-                rus: 'text'
+                rus: 'Понизить передачу.'
             },
             {
                 eng: 'Pump the brake pedal',
-                rus: 'text'
+                rus: 'Нажать на педаль тормоза.'
             },
             {
                 eng: 'Look for an escape ramp or escape route',
-                rus: 'text'
+                rus: 'Ищите рампу или аварийний путь эвакуации.'
             },
         ]
     },
@@ -66,20 +66,20 @@ const general = [
         answer: 2,
         question: {
             eng: "The center of gravity of a load:",
-            rus: "3text"
+            rus: "Центр тяжести груза:"
         },
         answers: [
             {
                 eng: 'Should be kept as high as possible',
-                rus: 'text'
+                rus: 'Следует держать как можно выше.'
             },
             {
                 eng: 'Can make a vehicle more likely to tip over on curves if it is high',
-                rus: 'text'
+                rus: 'Может повысить вероятность опрокидывания автомобиля на поворотах, если он высокий.'
             },
             {
                 eng: 'Is only a problem if the vehicle is overloaded',
-                rus: 'text'
+                rus: 'Проблема только в том случае, если автомобиль перегружен.'
             },
         ]
     },
@@ -87,20 +87,20 @@ const general = [
         answer: 1,
         question: {
             eng: "Which of these statements about drinking alcohol is true?",
-            rus: "3text"
+            rus: "Какое из этих утверждений об употреблении алкоголя верно?"
         },
         answers: [
             {
                 eng: 'A few beers have the same effect on driving as a few shots of whiskey or a few glasses of wine.',
-                rus: 'text'
+                rus: 'Несколько банок пива оказывают такое же влияние на вождение, как несколько рюмок виски или несколько бокалов вина'
             },
             {
                 eng: 'Coffee and fresh air will help a drinker sober up.',
-                rus: 'text'
+                rus: 'Кофе и свежий воздух помогут пьянице протрезветь.'
             },
             {
                 eng: 'Not everyone who drinks is affected by alcohol.',
-                rus: 'text'
+                rus: 'Не на всех, кто пьет, влияет алкоголь.'
             },
         ]
     },
@@ -108,20 +108,20 @@ const general = [
         answer: 3,
         question: {
             eng: "What is the proper way to hold a steering wheel?",
-            rus: "3text"
+            rus: "Как правильно держать руль?"
         },
         answers: [
             {
                 eng: 'With both hands close together, near the top of the wheel.',
-                rus: 'text'
+                rus: 'Держите обе руки близко друг к другу, около верхней части.'
             },
             {
                 eng: 'With both hands close together, near the bottom of the wheel.',
-                rus: 'text'
+                rus: 'Обеими руками вместе, около нижней части.'
             },
             {
                 eng: 'With your hands place on opposite sides of the wheel.',
-                rus: 'text'
+                rus: 'Поместите руки по разные стороны от руля.'
             },
         ]
     },
@@ -129,20 +129,20 @@ const general = [
         answer: 2,
         question: {
             eng: "You do not have a Hazardous Materials Endorsement on your Commercial Driver’s License. You can drive a vehicle hauling hazardous materials when?",
-            rus: "3text"
+            rus: "У вас нет отметки о перевозке опасных материалов в ваших водительских правах.  Можете ли вы управлять транспортным  средством, перевозящим  опасные материалы, когда:"
         },
         answers: [
             {
                 eng: 'The shipment will not cross state lines.',
-                rus: 'text'
+                rus: 'Груз не будет пересекать границы штатов.'
             },
             {
                 eng: 'The vehicle does not require placards.',
-                rus: 'text'
+                rus: 'Автомобиль не требует табличек.'
             },
             {
                 eng: 'A person who has the Hazardous Materials Endorsement rides with you.',
-                rus: 'text'
+                rus: 'Вместе с вами едет человек, имеющий допуск к перевозке опасных материалов.'
             },
         ]
     },
@@ -150,20 +150,20 @@ const general = [
         answer: 3,
         question: {
             eng: "What is counter steering?",
-            rus: "3text"
+            rus: "Что такое контрруление?"
         },
         answers: [
             {
                 eng: 'Steering in the opposite direction from what other drivers expect you to.',
-                rus: 'text'
+                rus: 'Рулевое управление в направлении, противоположном тому, которого ожидают от вас другие водители'
             },
             {
                 eng: 'Using the steering axle brakes to prevent over steering.',
-                rus: 'text'
+                rus: 'Использование тормозов рулевой оси для предотвращения чрезмерного поворота руля.'
             },
             {
                 eng: 'Turning the wheel back in the other direction after steering to avoid a traffic emergency.',
-                rus: 'text'
+                rus: 'Поворот руля в обратном направлении после того как вы избежали аварийной ситуации.'
             },
         ]
     },
@@ -171,20 +171,20 @@ const general = [
         answer: 1,
         question: {
             eng: "Retarders:",
-            rus: "3text"
+            rus: "Тормоз-замедлитель:"
         },
         answers: [
             {
                 eng: 'Reduce break wear.',
-                rus: 'text'
+                rus: 'Уменьшит разрывной износ.'
             },
             {
                 eng: 'Allow you to disconnect the steering axle brakes.',
-                rus: 'text'
+                rus: 'Позволяет отключить тормоза рулевой оси.'
             },
             {
                 eng: 'Are needed only if hazardous materials are being hauled.',
-                rus: 'text'
+                rus: 'Нужны только при перевозке опасных материалов.'
             },
         ]
     },
@@ -192,20 +192,20 @@ const general = [
         answer: 3,
         question: {
             eng: "While driving, ice builds up on your wipers and they no longer clean the windshield. You should:",
-            rus: "3text"
+            rus: "Во время движения на дворниках скапливается лед, и они перестают очищать ветровое стекло. Вы должны:"
         },
         answers: [
             {
                 eng: 'Keep driving, and turn your defroster on. ',
-                rus: 'text'
+                rus: 'Продолжать движение и включить антиобледенитель.'
             },
             {
                 eng: 'Keep driving, and spray the windshield with washer fluid.',
-                rus: 'text'
+                rus: 'Продолжать движение и брызнуть на ветровое стекло омывающую жидкость.'
             },
             {
                 eng: 'Stop safely and fix the problem.',
-                rus: 'text'
+                rus: 'Безопасно остановиться и устранить проблему.'
             },
         ]
     },
@@ -213,20 +213,20 @@ const general = [
         answer: 2,
         question: {
             eng: "You are driving a new truck with a manual transmission. What gear will you probably have to use to take a long, steep downhill grade?",
-            rus: "3text"
+            rus: "Вы едете на новом грузовике с механической коробкой передач. Какое снаряжение вам, вероятно, придется использовать, чтобы взять длинный крутой спуск?"
         },
         answers: [
             {
                 eng: 'The same gear you would use to climb the hill. ',
-                rus: 'text'
+                rus: 'То же самое снаряжение, которое вы использовали бы, чтобы подняться на холм'
             },
             {
                 eng: 'A lower gear than you would use to climb the hill. ',
-                rus: 'text'
+                rus: 'Более низкая передача, чем вы бы использовали, чтобы подняться на холм.'
             },
             {
                 eng: 'A higher gear than you would use to climb the hill',
-                rus: 'text'
+                rus: 'Более высокая передача, чем вы бы использовали, чтобы подняться на холм.'
             },
         ]
     },
@@ -234,20 +234,20 @@ const general = [
         answer: 1,
         question: {
             eng: "Which of these statements about driving in areas with strong winds is true? ",
-            rus: "3text"
+            rus: "Какое из этих утверждений о вождении в районах с сильным ветром верно?"
         },
         answers: [
             {
                 eng: 'Winds are a big problem when a truck comes out of a tunnel.',
-                rus: 'text'
+                rus: ' Ветер - большая проблема, когда грузовик выезжает из туннеля.'
             },
             {
                 eng: 'You should drive alongside other vehicles to help break up the wind.',
-                rus: 'text'
+                rus: 'Вы должны ехать рядом с другими транспортными средствами, чтобы помочь разогнать ветер.'
             },
             {
                 eng: 'The lighter your vehicle, the less trouble you will have with the wind.',
-                rus: 'text'
+                rus: 'Чем легче ваш автомобиль, тем меньше у вас будет проблем с ветром.'
             },
         ]
     },
@@ -255,20 +255,20 @@ const general = [
         answer: 2,
         question: {
             eng: "Cargo Inspections:",
-            rus: "3text"
+            rus: "Досмотр грузов:"
         },
         answers: [
             {
                 eng: 'Are most often not the responsibility of the driver.',
-                rus: 'text'
+                rus: 'Чаще всего не входит в обязанности водителя.'
             },
             {
                 eng: 'Should be performed after every break you take while driving.',
-                rus: 'text'
+                rus: 'Следует выполнять после каждого перерыва во время вождения.'
             },
             {
                 eng: 'Are needed only if hazardous materials are being hauled.',
-                rus: 'text'
+                rus: 'Нужны только при перевозке опасных материалов.'
             },
         ]
     },
@@ -276,20 +276,20 @@ const general = [
         answer: 3,
         question: {
             eng: "To help you stay alert while driving you should?",
-            rus: "3text"
+            rus: "Что нужно делать, чтобы сохранять бдительность за рулем?"
         },
         answers: [
             {
                 eng: 'Schedule trips for hours you are normally asleep.',
-                rus: 'text'
+                rus: 'Планируйте поездки на те часы, когда вы обычно спите.'
             },
             {
                 eng: 'Take cold medicine, if you have a cold.',
-                rus: 'text'
+                rus: 'Примите лекарство от простуды, если вы простудились.'
             },
             {
                 eng: 'Take short breaks before you get drowsy.',
-                rus: 'text'
+                rus: 'Делайте короткие перерывы, пока не почувствуете сонливость.'
             },
         ]
     },
@@ -297,20 +297,20 @@ const general = [
         answer: 3,
         question: {
             eng: "Which of these statements about double clutching and shifting is true?",
-            rus: "3text"
+            rus: "Какое из этих утверждений о двойном сцеплении и переключении передач верно?"
         },
         answers: [
             {
                 eng: 'Double clutching should not be used when the road is slippery.',
-                rus: 'text'
+                rus: 'Двойное сцепление не следует использовать на скользкой дороге.'
             },
             {
                 eng: 'Double clutching should only be used with a heavy load.',
-                rus: 'text'
+                rus: 'Двойное сцепление следует использовать только при перевозке тяжелого груза.'
             },
             {
                 eng: 'You can use the tachometer to tell when to shift.',
-                rus: 'text'
+                rus: 'Вы можете использовать тахометр, чтобы сказать, когда переключитать передачу.'
             },
         ]
     },
@@ -318,20 +318,20 @@ const general = [
         answer: 2,
         question: {
             eng: "Which of these statements about cargo loading is true?",
-            rus: "The legal maximum weight allowed by a state can be considered safe for all driving conditions. "
+            rus: "Какое из этих утверждений о погрузке груза верно?"
         },
         answers: [
             {
                 eng: 'The legal maximum weight allowed by a state can be considered safe for all driving conditions',
-                rus: 'text'
+                rus: 'Допустимый максимальный вес, разрешенный штатом, можно считать безопасным для любых условий вождения.'
             },
             {
                 eng: 'State laws dictate legal weight limits.',
-                rus: 'text'
+                rus: 'Законы штатов диктуют юридические ограничения веса.'
             },
             {
                 eng: 'If cargo is loaded by the shipper, the driver is not responsible for overloading.',
-                rus: 'text'
+                rus: 'Если груз загружается грузоотправителем, водитель не несет ответственности за перегрузку.'
             },
         ]
     },
@@ -339,20 +339,20 @@ const general = [
         answer: 1,
         question: {
             eng: "Which of these statements about marking a stopped vehicle is true?",
-            rus: "3text"
+            rus: "Какое из этих утверждений о маркировке остановившегося транспортного средства верно?"
         },
         answers: [
             {
                 eng: 'If a hill or curve keeps drivers behind you from seeing the vehicle within 500 feet, move the rear reflective triangle back down the road to give adequate warning.',
-                rus: 'text'
+                rus: 'Если холм или поворот мешают водителям позади вас видеть автомобиль в пределах 500 футов, переместите задний светоотражающий треугольник назад по дороге, чтобы дать адекватное предупреждение.'
             },
             {
                 eng: 'You do not need to put out reflective triangles unless the vehicle will be stopped for 30 minutes or more.',
-                rus: 'text'
+                rus: 'Вам не нужно гасить светоотражающие треугольники, если транспортное средство не будет остановлено на 30 минут или более.'
             },
             {
                 eng: 'The vehicle’s taillights should be kept on to warn other drivers.',
-                rus: 'text'
+                rus: 'Задние фонари автомобиля должны быть включены ,чтобы предупредить других водителей.'
             },
         ]
     },
@@ -365,15 +365,15 @@ const general = [
         answers: [
             {
                 eng: 'Turn the steering wheel as far to the left as you can.',
-                rus: 'text'
+                rus: 'Повернуть  руль как можно дальше влево.'
             },
             {
                 eng: 'Apply the brake.',
-                rus: 'text'
+                rus: 'Применить тормоз.'
             },
             {
                 eng: 'Leave it in gear (if it has a manual transmission).',
-                rus: 'text'
+                rus: 'Оставить его на передаче (если у него механическая коробка передач).'
             },
         ]
     },
@@ -381,20 +381,20 @@ const general = [
         answer: 1,
         question: {
             eng: "A vehicle is loaded with very little weight on the drive axle. What may happen?",
-            rus: "3text"
+            rus: "Транспортное средство загружено с очень небольшим весом на ведущую ось. Что может случиться?"
         },
         answers: [
             {
                 eng: 'Poor traction.',
-                rus: 'text'
+                rus: 'Плохая тяга.'
             },
             {
                 eng: 'Damage to drive axle tires.',
-                rus: 'text'
+                rus: 'Повреждение шин передней оси.'
             },
             {
                 eng: 'Better handling.',
-                rus: 'text'
+                rus: 'Улучшенное управление.'
             },
         ]
     },
@@ -402,20 +402,20 @@ const general = [
         answer: 2,
         question: {
             eng: "Which of these best describes how you should use the brake pedal on a steep downhill grade?",
-            rus: "3text"
+            rus: "Что из этого лучше всего описывает, как вы должны использовать педаль тормоза на крутом спуске?"
         },
         answers: [
             {
                 eng: 'Light, steady pressure.',
-                rus: 'text'
+                rus: 'Легкое, стабильное давление'
             },
             {
                 eng: 'Repeated strong pressure, then release.',
-                rus: 'text'
+                rus: 'Повторяющееся сильное давление, затем отпустить.'
             },
             {
                 eng: 'With stronger pressure as the vehicle goes downhill.',
-                rus: 'text'
+                rus: 'С более сильным давлением, когда автомобиль движется под уклон.'
             },
         ]
     },
@@ -423,20 +423,20 @@ const general = [
         answer: 3,
         question: {
             eng: "Which of these statements about speed management is true?",
-            rus: "3text"
+            rus: "Какое из этих утверждений об управлении скоростью верно?"
         },
         answers: [
             {
                 eng: 'Empty trucks always stop in a shorter distance than fully loaded ones.',
-                rus: 'text'
+                rus: 'Пустые грузовики всегда останавливаются на более коротком расстоянии, чем полностью загруженные.'
             },
             {
                 eng: 'When you double your speed (go twice as fast), it will take twice the distance to stop.',
-                rus: 'text'
+                rus: 'Когда вы удваиваете свою скорость (едете в два раза быстрее), вам потребуется вдвое большее расстояние, чтобы остановиться.'
             },
             {
-                eng: ' You should choose a speed that lets you stop within the distance that you can see ahead.',
-                rus: 'text'
+                eng: 'You should choose a speed that lets you stop within the distance that you can see ahead.',
+                rus: 'Вы должны выбрать скорость, которая позволит вам остановиться на том расстоянии, на которое вы можете видеть впереди.'
             },
         ]
     },
@@ -444,20 +444,20 @@ const general = [
         answer: 2,
         question: {
             eng: "Which of these statements about using turn signals is true? ",
-            rus: "3text"
+            rus: "Какое из этих утверждений об использовании сигналов поворота верно?"
         },
         answers: [
             {
                 eng: 'You do not need to use your turn signal when changing lanes in traffic on a four-lane highway.',
-                rus: 'text'
+                rus: 'Вам не нужно использовать сигнал поворота при смене полосы движения на четырехполосном шоссе.'
             },
             {
                 eng: 'When turning, you should signal earlyю',
-                rus: 'text'
+                rus: 'При повороте подавать сигнал заранее.'
             },
             {
                 eng: 'You should use your turn signal to mark your vehicle when it is pulled off on side of the road.',
-                rus: 'text'
+                rus: 'Вы должны использовать сигнал поворота, чтобы обозначить свое транспортное средство, когда оно съезжает на обочину дороги.'
             },
         ]
     },
@@ -465,20 +465,20 @@ const general = [
         answer: 3,
         question: {
             eng: "An enroute inspection should include checking for:",
-            rus: "3text"
+            rus: "Инспекция на маршруте должна включать проверку:"
         },
         answers: [
             {
                 eng: 'Tire overheating and brake overheating.',
-                rus: 'text'
+                rus: 'Перегрев шин и перегрев тормозов.'
             },
             {
                 eng: 'Cargo securement.',
-                rus: 'text'
+                rus: 'Обеспечение груза.'
             },
             {
                 eng: 'Both of the above.',
-                rus: 'text'
+                rus: 'Оба вышеперечисленных.'
             },
         ]
     },
@@ -486,20 +486,20 @@ const general = [
         answer: 1,
         question: {
             eng: "You are checking your tires for a pre-trip inspection. Which of these statements is true?",
-            rus: "3text"
+            rus: "Вы проверяете свои шины на предрейсовый техосмотр. Какое из этих утверждений верно:"
         },
         answers: [
             {
                 eng: 'Tires of mismatched sizes should not be used on the same vehicle.',
-                rus: 'text'
+                rus: 'Шины несоответствующих размеров не должны использоваться на одном и том же автомобиле.'
             },
             {
                 eng: 'Radial and bias-ply tires can be used together on the same vehicle.',
-                rus: 'text'
+                rus: 'Радиальные и диагональные шины можно использовать вместе на одном автомобиле.'
             },
             {
                 eng: 'A tread depth of 2/32 inch is safe for the front tires.',
-                rus: 'text'
+                rus: 'Глубина протектора 2/32 дюйма безопасна для передних шин.'
             },
         ]
     },
@@ -507,20 +507,20 @@ const general = [
         answer: 2,
         question: {
             eng: "You are driving in the right lane of a four-lane, undivided road. You come over a hill and find a car stopped ahead in your lane. You do not have room to stop. The hill blocks your view to the rear. The shoulder is clear. Which of these is most likely the best action to take?",
-            rus: "3text"
+            rus: "Вы едете по правой полосе четырехполосной неразделенной дороги. Вы подходите к холму и обнаруживаете, что машина остановилась впереди на вашей полосе. У вас нет места, чтобы остановиться. Холм закрывает обзор назад. Плечо чистое. Какое из этих действий, скорее всего, лучше всего предпринять?"
         },
         answers: [
             {
                 eng: 'Steer into the left lane.',
-                rus: 'text'
+                rus: 'Рулите в левую полосу.'
             },
             {
                 eng: 'Steer to the right.',
-                rus: 'text'
+                rus: 'Рулите в правую полосу.'
             },
             {
                 eng: 'Use hard braking and brace for collision.',
-                rus: 'text'
+                rus: 'Используйте резкое торможение и будьте готовы к столкновению.'
             },
         ]
     },
@@ -1577,20 +1577,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "If you must driving through deep puddles or flowing water, which of these steps can help keep your brakes working?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Driving through quickly.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Gently putting on the brakes while driving through the water.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Applying hard pressure on both the brake pedal and accelerator after coming out of the water.',
                 rus: 'text'
             },
         ]
@@ -1598,20 +1598,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "You are checking your wheels and rims for a pre-trip inspection. Which of these statements is true?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Rust around wheel nuts may mean that they are loose.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Cracked wheels or rims can be used if they have been welded.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'A vehicle can be safely driven with one missing lug nut on a wheel.',
                 rus: 'text'
             },
         ]
@@ -1619,20 +1619,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "As the Blood Alcohol Concentration (BAC) goes up, what happens?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Try to get all wheels off the pavement.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Judgment and self-control are affected.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'The drinker can sober up in less time.',
                 rus: 'text'
             },
         ]
@@ -1640,20 +1640,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "If you need to leave the road in a traffic emergency you should:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Try to get all wheels off the pavement.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Brake hard as you leave the road.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Avoid braking until your speed has dropped to about 20 mph.',
                 rus: 'text'
             },
         ]
@@ -1661,20 +1661,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "Which of these statements about downshifting for a long downhill grade is true?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'It should not be done with automatic transmissions.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'It allows engine compression and friction to help slow the vehicle.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'The proper time to downshift is just after the vehicle starts down the hill.',
                 rus: 'text'
             },
         ]
@@ -1682,20 +1682,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "Which of these statements about cold-weather driving is true?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'An engine can overheat when the weather is very cold.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Windshield washer antifreeze should be used.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Exhaust system leaks are less dangerous in cold weather.',
                 rus: 'text'
             },
         ]
@@ -1703,20 +1703,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "Controlled braking:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Can be used while you are turning sharply.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Involves locking the wheels for short periods of time.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Is used to keep a vehicle in a straight line when braking.',
                 rus: 'text'
             },
         ]
@@ -1724,20 +1724,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "When looking ahead of your vehicle while driving you should look:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'To the right side of the road.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'To the left side of the road.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Back and forth, near and far.',
                 rus: 'text'
             },
         ]
@@ -1745,20 +1745,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "Which of these is not a good rule to follow when caring for injured at an accident scene?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: ' If qualified person is helping them, stay out of the way unless asked to assist. ',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Keep injured persons cool. ',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Move severely injured persons if there is a danger due to fire or passing traffic.',
                 rus: 'text'
             },
         ]
@@ -1766,20 +1766,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "Escape ramps are:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Used to stop runaway vehicle.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'For tankers only.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'For combination vehicles only.',
                 rus: 'text'
             },
         ]
@@ -1787,20 +1787,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "When driving at night, you should:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Adjust your speed to keep your stopping distance within your sight distance.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Look to the left side of the road when a vehicle is coming toward you.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Drive faster when your low beams are on.',
                 rus: 'text'
             },
         ]
@@ -1808,20 +1808,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "For your safety, when setting out reflective triangles you should:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Carry the triangles on your side.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Hold the triangles between yourself and oncoming traffic.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Keep them out of sight while you walk to the spots where you set them out.',
                 rus: 'text'
             },
         ]
@@ -1829,20 +1829,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "When should you wear seat belts?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Any time you are in a moving vehicle.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Only in states where it is required by law.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Only when engaged in interstate commerce.',
                 rus: 'text'
             },
         ]
@@ -1850,20 +1850,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "How do you correct a rear-wheel accelerated skid?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Apply more power to the wheels.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Stop accelerating.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Apply the brakes.',
                 rus: 'text'
             },
         ]
@@ -1871,20 +1871,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "Which of these statements about vehicle fires is true?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'If the cargo in a van or a box trailer catches on fire you should open the cargo doors as soon as you can.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'If your engine is on fire, you should open the hood as soon as you can.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'A burning tire should be cooled with water.',
                 rus: 'text'
             },
         ]
@@ -1892,20 +1892,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "Hydroplaning: ",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Only occurs at speed above 50 mph.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Cannot occur when driving through a puddle.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Is more likely if tire pressure is low.',
                 rus: 'text'
             },
         ]
@@ -1913,20 +1913,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "Which of these statements about overhead clearance is true?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'You should assume posted clearance signs are correct.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'The weight of a vehicle changes its height.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'If the road surface causes your vehicle to tilt toward objects at the edge of the road, you should drive close to the shoulder.',
                 rus: 'text'
             },
         ]
@@ -1934,20 +1934,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "The most common cause of serious vehicle skids is:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: ' Driving too fast for road conditions.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Poorly adjusted brakes.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Bad tires.',
                 rus: 'text'
             },
         ]
@@ -1955,20 +1955,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "Which of these is a good rule to follow when using a fire extinguisher?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Keep as close to the fire as possible.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Stay downwind of the fire.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Aim at the base of the fire',
                 rus: 'text'
             },
         ]
@@ -1976,20 +1976,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "Heavy vehicles must sometimes travel more slowly than other traffic. Which of these is not a good rule to follow when you are driving such a vehicle?",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Signal other drivers when it is safe for them to pass you. ',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Stay to the right.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Turn on the flashers if it is legal to do so.',
                 rus: 'text'
             },
         ]
@@ -1997,20 +1997,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "The parking brake should be tested while the vehicle is:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Parked',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Moving forward slowly.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Going downhill.',
                 rus: 'text'
             },
         ]
@@ -2018,20 +2018,20 @@ const general = [
     {
         answer: 3,
         question: {
-            eng: " ",
+            eng: "The most important reason for being alert to hazards is so:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Accident reports will be accurate.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Law enforcement personnel can be called.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'You will have time to plan your escape if the hazard becomes an emergency.',
                 rus: 'text'
             },
         ]
@@ -2039,20 +2039,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "If you are being tailgated, you should:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Increase your following distance.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Flash your brake lights.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Signal the tailgater when it is safe to pass you.',
                 rus: 'text'
             },
         ]
@@ -2060,20 +2060,20 @@ const general = [
     {
         answer: 2,
         question: {
-            eng: " ",
+            eng: "For this question refer to the figure to the right. You are driving a long vehicle that makes wide turns. You want to turn left from Pine Street onto Cedar Street. Both are two-lane, two-way streets. You should:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Begin turning your vehicle as soon as you can enter the intersection.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Begin turning your vehicle when you are halfway through the intersection',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Begin the turn with your vehicle in the left lane of Pine Street.',
                 rus: 'text'
             },
         ]
@@ -2081,20 +2081,20 @@ const general = [
     {
         answer: 1,
         question: {
-            eng: " ",
+            eng: "While driving you see a small (1-foot square) cardboard box ahead in your lane. You should:",
             rus: "text"
         },
         answers: [
             {
-                eng: 'Figure',
+                eng: 'Steer around it without making a sudden or unsafe move.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Brake hard to avoid hitting it.',
                 rus: 'text'
             },
             {
-                eng: 'Figure',
+                eng: 'Hit it with your vehicle to knock it off the road.',
                 rus: 'text'
             },
         ]
