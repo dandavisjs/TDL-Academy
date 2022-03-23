@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.footer a {
+    color: black
+}
+
+
 .footer * {
     display: flex;
     align-items: center;
