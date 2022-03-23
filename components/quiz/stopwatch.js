@@ -22,7 +22,7 @@ const Stopwatch = () => {
     return (
         <div className="numbers">
             {`Время: `}
-            <strong>
+            <strong style={running ? { color: 'black' } : { color: '#D33231' }}>
                 <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</span>
                 <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}</span>
             </strong>
