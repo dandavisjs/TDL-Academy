@@ -53,7 +53,7 @@ export default function Subscribe() {
             </div>
             <div>
                 {message
-                    ? message
+                    ? <span style={{ color: "#38AF2B" }}>{message}</span>
                     : `Мы не рассылаем спам и бережно относимся к Вашим адресам.`}
             </div>
 
