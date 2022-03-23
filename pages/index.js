@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './index.module.css'
 import Link from 'next/link'
 import Subscribe from '../components/subscribe/subscribe'
+import Support from '../components/layout/support'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,7 +22,10 @@ export default function Home() {
           <Link href="/quiz/airbrakes"><a>Air Brakes</a></Link>
         </div>
         <p>Тесты основаны на федеральных правилах. В разных штатах правила могут слегка разлечаться, но общая информация для всех штатов одинакова.</p>
+
         <div className={styles.work}>
+          <h3>Поддержите наш проект!</h3>
+          <Support />
           <h3>Ищите работу в траковой компании?</h3>
           <Link href="https://www.truckdriver.help" passHref={true}><h4 style={{ cursor: 'pointer' }} >www.TruckDriver.help</h4></Link>
           <p>TruckDriver.help предоставляем эффективный сервис по поиску работы, а также размещению вакансий на работу.</p>
