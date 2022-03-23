@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-
+import classes from './subscribe.module.css'
 export default function Subscribe() {
     // 1. Create a reference to the input so we can fetch/clear it's value.
     const inputEl = useRef(null);
@@ -31,26 +31,32 @@ export default function Subscribe() {
 
         // 5. Clear the input value and show a success message.
         inputEl.current.value = '';
-        setMessage('Success! 🎉 You are now subscribed to the newsletter.');
+        setMessage('Спасибо за подписку!');
     };
 
     return (
-        <form onSubmit={subscribe}>
-            <label htmlFor="email-input">{'Email Address'}</label>
-            <input
-                id="email-input"
-                name="email"
-                placeholder="you@awesome.com"
-                ref={inputEl}
-                required
-                type="email"
-            />
+        <form className={classes.main} onSubmit={subscribe}>
+
+            <div>
+                <label style={{ marginLeft: 5 }} htmlFor="email-input">{'Email:'}</label>
+                <div>
+                    <input
+                        id="email-input"
+                        name="email"
+                        placeholder="ваш@email.com"
+                        ref={inputEl}
+                        required
+                        type="email"
+                    />
+                    <button type="submit">{'Подписаться'}</button>
+                </div>
+            </div>
             <div>
                 {message
                     ? message
-                    : `I'll only send emails when new content is posted. No spam.`}
+                    : `Мы не рассылаем спам и бережно относимся к вашим адресам.`}
             </div>
-            <button type="submit">{'✨ Subscribe 💌'}</button>
+
         </form>
     );
 }

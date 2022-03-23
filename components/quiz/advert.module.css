@@ -1,0 +1,15 @@
+.main { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.main ol {
+    margin: 0;
+    padding: 0;
+}
+
+.main a {
+    color: #4c95cc;
+}
