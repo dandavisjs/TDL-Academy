@@ -51,6 +51,9 @@ h6 {
   font-size: 0.6rem;
 }
 
+a{ 
+  color:#3E3E78
+}
 
 ul {
   list-style: none;
@@ -136,13 +139,13 @@ button {
   border-radius: 10px;
 }
 
-.questions {
+.answers {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.questions > div {
+.answers > div {
   background-color: #F7F7FC;
   border-radius: 10px;
   padding: 15px 10px;

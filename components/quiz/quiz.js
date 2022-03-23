@@ -1,7 +1,8 @@
 import { useEffect, useState, useContext } from 'react'
-import Questions from './questions'
+import Questions from './answers'
 import styles from './quiz.module.css'
 import QuizContext from '../../store/quiz-context'
+import Advert from '../../components/quiz/advert'
 import Stopwatch from './stopwatch'
 const Quiz = ({ questions, title }) => {
 
@@ -12,8 +13,9 @@ const Quiz = ({ questions, title }) => {
         setWrong([])
         setFinished(false)
         setRunning(true)
+        setAdvert(true)
+        setDisabled(true)
     }, [])
-
     const quizCtx = useContext(QuizContext)
     const { index,
         setIndex,
@@ -27,7 +29,10 @@ const Quiz = ({ questions, title }) => {
         setWrong,
         finished,
         setFinished,
-        setRunning } = quizCtx
+        setRunning,
+        advert,
+        setAdvert,
+        setDisabled } = quizCtx
 
     const next = () => index + 1 === questions.length ? handleFinish() : nextPage()
     const nextPage = () => {
@@ -58,6 +63,7 @@ const Quiz = ({ questions, title }) => {
         }
     }
 
+
     return (
         <div className={styles.main}>
             <h1 style={{ textAlign: 'center' }}>{title}</h1>
@@ -82,7 +88,7 @@ const Quiz = ({ questions, title }) => {
                                 <div >
                                     <h4>{translate ? questions[n].question.rus : questions[n].question.eng}</h4>
                                 </div>
-                                <div className="questions ">
+                                <div className="answers">
                                     {questions[n].answers.map((answer, i) => {
                                         return (
                                             <div key={i} onClick={() => !selected && handleCheck(i + 1)} style={questions[n].answer === ++i ? { backgroundColor: "#498E3B", color: 'white' } : null} className="noselect">
@@ -101,15 +107,20 @@ const Quiz = ({ questions, title }) => {
                 : <h2>Вы прошли тест без ошибок.</h2>
                 :
                 <div className={styles.questions}>
+                    {
+                        index === 14 && advert ? <Advert />
+                            : <>
+                                <div className={styles.head}>
+                                    <h4>{translate ? questions[index].question.rus : questions[index].question.eng}</h4>
+                                </div>
 
-                    <div className={styles.head}>
-                        <h4>{translate ? questions[index].question.rus : questions[index].question.eng}</h4>
-                    </div>
+                                <Questions questions={questions} handleSelect={handleSelect} handleCheck={handleCheck} />
+                                <div className={styles.nav}>
+                                    <button onClick={next} disabled={!selected}>Дальше</button>
+                                </div>
+                            </>
+                    }
 
-                    <Questions questions={questions} handleSelect={handleSelect} handleCheck={handleCheck} />
-                    <div className={styles.nav}>
-                        <button onClick={next} disabled={!selected}>Дальше</button>
-                    </div>
                 </div>}
         </div >
     )

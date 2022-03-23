@@ -15,6 +15,10 @@ const QuizContext = createContext({
     setFinished: function () { },
     running: null,
     setRunning: function () { },
+    advert: null,
+    setAdvert: function () { },
+    disabled: null,
+    setDisabled: function () { },
 })
 
 export function QuizContextProvider(props) {
@@ -25,6 +29,8 @@ export function QuizContextProvider(props) {
     const [activeWrong, setActiveWrong] = useState([])
     const [activeFinished, setActiveFinished] = useState(false)
     const [activeRunning, setActiveRunning] = useState(true)
+    const [activeAdvert, setActiveAdvert] = useState(true)
+    const [activeDisabled, setActiveDisabled] = useState(true)
 
     function setIndexHandler(data) {
         setActiveIndex(data)
@@ -55,6 +61,13 @@ export function QuizContextProvider(props) {
         setActiveRunning(data)
     }
 
+    function setAdvertHandler(data) {
+        setActiveAdvert(data)
+    }
+
+    function setDisabledHandler(data) {
+        setActiveDisabled(data)
+    }
     const context = {
         index: activeIndex,
         setIndex: setIndexHandler,
@@ -70,6 +83,10 @@ export function QuizContextProvider(props) {
         setFinished: setFinishedHandler,
         running: activeRunning,
         setRunning: setRunningHandler,
+        advert: activeAdvert,
+        setAdvert: setAdvertHandler,
+        disabled: activeDisabled,
+        setDisabled: setDisabledHandler,
     };
 
     return (
