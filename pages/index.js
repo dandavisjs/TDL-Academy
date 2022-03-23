@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from './index.module.css'
 import Link from 'next/link'
-
+import Subscribe from '../components/subscribe/subscribe'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
 
-
+      <Subscribe />
     </div>
   )
 }
