@@ -4,6 +4,7 @@ import styles from './quiz.module.css'
 import QuizContext from '../../store/quiz-context'
 import Advert from '../../components/quiz/advert'
 import Stopwatch from './stopwatch'
+import Image from 'next/image'
 const Quiz = ({ questions, title }) => {
 
     useEffect(() => {
@@ -113,7 +114,8 @@ const Quiz = ({ questions, title }) => {
                                 <div className={styles.head}>
                                     <h4>{translate ? questions[index].question.rus : questions[index].question.eng}</h4>
                                 </div>
-
+                                {console.log(questions[index].img)}
+                                <div style={{ display: 'flex', justifyContent: 'center' }}>{questions[index].img && <Image src={questions[index].img} height={212} width={222} />}</div>
                                 <Questions questions={questions} handleSelect={handleSelect} handleCheck={handleCheck} />
                                 <div className={styles.nav}>
                                     <button onClick={next} disabled={!selected}>Дальше</button>
