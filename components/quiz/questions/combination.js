@@ -323,15 +323,15 @@ const combination = [
     answers: [
       {
         eng: 'Red;blue ',
-        rus: 'text',
+        rus: 'Красний;Синий',
       },
       {
         eng: 'Black; Yellow',
-        rus: 'text',
+        rus: 'Черный; Желтый',
       },
       {
         eng: 'Blue; Red',
-        rus: 'text',
+        rus: 'Синий; Красный',
       },
     ],
   },

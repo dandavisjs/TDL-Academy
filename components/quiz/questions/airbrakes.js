@@ -402,7 +402,7 @@ const airbrakes = [
     answer: 3,
     question: {
       eng: 'The air loss rate for a straight truck with the engine off and the brakes on should not be more than:',
-      rus: 'text',
+      rus: 'Скорость потери воздуха для прямолинейного грузовика с выключенным двигателем и включенными тормозами не должна превышать:',
     },
     answers: [
       {
