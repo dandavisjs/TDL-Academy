@@ -377,7 +377,7 @@ const general = [
         answer: 2,
         question: {
             eng: 'Every time you leave your vehicle you should?',
-            rus: '3text',
+            rus: 'Каждый раз, когда вы покидаете свой автомобиль, вы должны?',
         },
         answers: [
             {
