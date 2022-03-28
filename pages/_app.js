@@ -1,5 +1,5 @@
-// import { useEffect } from 'react'
-// import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 import '../styles/globals.css'
 import { QuizContextProvider } from '../store/quiz-context';
 import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -7,20 +7,20 @@ import Layout from '../components/layout/layout'
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
-  // const router = useRouter()
+  const router = useRouter()
 
-  // useEffect(() => {
-  //   import('react-facebook-pixel')
-  //     .then((x) => x.default)
-  //     .then((ReactPixel) => {
-  //       ReactPixel.init(`${NEXT_PUBLIC_FACEBOOK_ID}`) // facebookPixelId
-  //       ReactPixel.pageView()
+  useEffect(() => {
+    import('react-facebook-pixel')
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init(`${process.env.NEXT_PUBLIC_FACEBOOK_ID}`) // facebookPixelId
+        ReactPixel.pageView()
 
-  //       router.events.on('routeChangeComplete', () => {
-  //         ReactPixel.pageView()
-  //       })
-  //     })
-  // }, [router.events])
+        router.events.on('routeChangeComplete', () => {
+          ReactPixel.pageView()
+        })
+      })
+  }, [router.events])
 
   return (
     <QuizContextProvider>
