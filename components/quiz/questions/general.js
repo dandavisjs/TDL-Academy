@@ -1738,7 +1738,7 @@ const general = [
         img: ""
     },
     {
-        answer: 2,
+        answer: 3,
         question: {
             eng: 'Which of these statements about cold-weather driving is true?',
             rus: 'Какое из этих утверждений о вождении в холодную погоду верно?',
