@@ -8,8 +8,13 @@ import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
-
+  const [buildId] = useBuildId(); // useSWR under the hood
+  const prevBuildId = usePrevious(buildId);
   useEffect(() => {
+    if (prevBuildId && buildId && prevBuildId !== buildId) {
+      Router.reload();
+      console.log('Refreshed version');
+    }
     import('react-facebook-pixel')
       .then((x) => x.default)
       .then((ReactPixel) => {
@@ -20,7 +25,7 @@ function MyApp({ Component, pageProps }) {
           ReactPixel.pageView()
         })
       })
-  }, [router.events])
+  }, [buildId, prevBuildId, router.events])
 
   return (
     <QuizContextProvider>
