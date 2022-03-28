@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import '../styles/globals.css'
 import { QuizContextProvider } from '../store/quiz-context';
 import 'bootstrap-icons/font/bootstrap-icons.css'
