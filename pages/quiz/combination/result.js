@@ -1,7 +1,7 @@
 
 import { useContext } from 'react'
 import QuizContext from '../../../store/quiz-context'
-import Head from '../../../components/quiz/head'
+import Top from '../../../components/quiz/top'
 import combination from '../../../components/quiz/questions/combination'
 
 export default function Combination() {
@@ -12,7 +12,7 @@ export default function Combination() {
         wrong } = quizCtx
     return (
         <div className="quiz-main">
-            <Head />
+            <Top />
             <div className="container">
                 {wrong.length !== 0 ?
                     <>

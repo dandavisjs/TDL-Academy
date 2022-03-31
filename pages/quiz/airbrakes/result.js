@@ -1,7 +1,7 @@
 
 import { useContext } from 'react'
 import QuizContext from '../../../store/quiz-context'
-import Head from '../../../components/quiz/head'
+import Top from '../../../components/quiz/top'
 import airbrakes from '../../../components/quiz/questions/airbrakes'
 
 export default function Airbrakes() {
@@ -12,7 +12,7 @@ export default function Airbrakes() {
         wrong } = quizCtx
     return (
         <div className="quiz-main">
-            <Head />
+            <Top />
             <div className="container">
                 {wrong.length !== 0 ?
                     <>

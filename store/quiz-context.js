@@ -9,8 +9,6 @@ const QuizContext = createContext({
     setTranslate: function () { },
     wrong: null,
     setWrong: function () { },
-    finished: null,
-    setFinished: function () { },
     time: null,
     setTime: function () { },
     running: null,
@@ -26,7 +24,6 @@ export function QuizContextProvider(props) {
     const [activeScore, setActiveScore] = useState(0)
     const [activeTranslate, setActiveTranslate] = useState(false)
     const [activeWrong, setActiveWrong] = useState([])
-    const [activeFinished, setActiveFinished] = useState(false)
     const [activeTime, setActiveTime] = useState(0)
     const [activeRunning, setActiveRunning] = useState(true)
     const [activeAdvert, setActiveAdvert] = useState(true)
@@ -48,10 +45,6 @@ export function QuizContextProvider(props) {
 
     function setWrongHandler(data) {
         setActiveWrong(data)
-    }
-
-    function setFinishedHandler(data) {
-        setActiveFinished(data)
     }
 
     function setTimeHandler(data) {
@@ -78,8 +71,6 @@ export function QuizContextProvider(props) {
         setTranslate: setTranslateHandler,
         wrong: activeWrong,
         setWrong: setWrongHandler,
-        finished: activeFinished,
-        setFinished: setFinishedHandler,
         time: activeTime,
         setTime: setTimeHandler,
         running: activeRunning,
