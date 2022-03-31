@@ -1,15 +1,14 @@
 import { useContext } from 'react'
-import styles from './answers.module.css'
 import QuizContext from '../../store/quiz-context'
 
-const Answers = ({ questions, handleCheck, handleSelect }) => {
+const Answers = ({ questions, handleCheck, handleSelect, index }) => {
     const quizCtx = useContext(QuizContext)
-    const { selected, translate, index } = quizCtx
+    const { selected, translate } = quizCtx
     const abc = ["A", "B", "C", "D"]
 
     return (
         <div className="answers">
-            {questions[index].answers.map((answer, i) => {
+            {questions && questions[index].answers.map((answer, i) => {
 
 
                 return (
