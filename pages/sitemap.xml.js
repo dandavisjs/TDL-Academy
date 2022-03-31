@@ -7,7 +7,7 @@ const Sitemap = () => {
 
 export const getServerSideProps = async ({ res }) => {
 
-  const BASE_URL = 'https://localhost:3000'; //This is where you will define your base url. You can also use the default dev url http://localhost:3000
+
 
   const staticPaths = fs
     .readdirSync("pages")
@@ -26,9 +26,9 @@ export const getServerSideProps = async ({ res }) => {
 
 
 
-  const dynamicPaths = General.quiz.map((question, i) => {
+  const dynamicPaths = await General.quiz.map((question, i) => {
 
-    return `${BASE_URL}/quiz/general/${i}`
+    return `${process.env.NEXT_PUBLIC_BASE_URL}/quiz/general/${i}`
 
   })
 
