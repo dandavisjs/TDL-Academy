@@ -22,7 +22,6 @@ const Quiz = ({ questions, title, id, name }) => {
     const quizCtx = useContext(QuizContext)
     const {
         translate,
-        setTranslate,
         selected,
         setSelected,
         setTime,
@@ -57,8 +56,6 @@ const Quiz = ({ questions, title, id, name }) => {
 
     const handleCheck = (i) => {
         setSelected(i);
-        console.log(i)
-        console.log(correct);
         if (i === correct) {
             setScore(score + 1)
         } else {
@@ -79,7 +76,6 @@ const Quiz = ({ questions, title, id, name }) => {
                             <div className={styles.head}>
                                 <h4>{translate ? questions[index].question.rus : questions[index].question.eng}</h4>
                             </div>
-                            {console.log(questions[index].img)}
                             <div style={{ display: 'flex', justifyContent: 'center' }}>{questions[index].img && <Image src={questions[index].img} height={212} width={222} />}</div>
                             <Answers questions={questions} handleSelect={handleSelect} handleCheck={handleCheck} index={index} />
                             <div className={styles.nav}>
