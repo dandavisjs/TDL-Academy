@@ -12,6 +12,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #EEEEF5;
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -130,6 +133,29 @@ button {
   margin-right: 40px;
 }
 
+.quiz-main {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+
+.quiz-main > :nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quiz-main h2 {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
 
 .select {
   background-color: rgb(7, 207, 0);
@@ -141,6 +167,29 @@ button {
   background-color: rgb(233, 0, 0);
   color: white;
   border-radius: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.language {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 30px
 }
 
 .answers {
@@ -170,7 +219,56 @@ button {
   cursor: pointer;
 }
 
+
+footer {
+  
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  border-top: 1px solid #eaeaea;
+  background-color: white;
+  padding: 0 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer a {
+  color: black
+}
+
+
+footer * {
+  display: flex;
+  align-items: center;
+}
+
+footer > ul {   
+  gap: 40px;
+}
+
+footer > ul > li > a > i {   
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 768px) {
+  .quiz-main {
+    max-width: 600px;
+    width: auto;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
   .mobile-nav {
     display:block;
     padding: 20px 0px;

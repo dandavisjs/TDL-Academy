@@ -17,9 +17,9 @@ export default function Home() {
         <p>Бесплатные CDL тесты для подготовки, <em>с переводом на русский язык</em>. Используйте бесплатные тесты для того чтобы проверить свои знания и подготовиться к экзаменам Class-A Commercial Driver’s License в США. Тесты имитируют типы вопросов, которые могут возникнуть при сдаче тестов в местном офисе DMV.</p>
         <p>Выберите тест:</p>
         <div className={styles.list}>
-          <Link href="/quiz/general"><a>General Knowledge</a></Link>
-          <Link href="/quiz/combination"><a>Combination</a></Link>
-          <Link href="/quiz/airbrakes"><a>Air Brakes</a></Link>
+          <Link href="/quiz/general/0"><a>General Knowledge</a></Link>
+          <Link href="/quiz/combination/0"><a>Combination</a></Link>
+          <Link href="/quiz/airbrakes/0"><a>Air Brakes</a></Link>
         </div>
         <div>
           <p style={{ color: "#D35058" }}>Платформа работает в бета-тестовом режиме. Если вы обнаружили неполадки, вы можете оповестить нас по электронной почте: <strong>contact{`<собака>`}truckdriver.help</strong> <br />Либо через Телеграм <strong><a href="https://t.me/tdhsupport" target="_blank">@TDHSupport</a></strong></p>

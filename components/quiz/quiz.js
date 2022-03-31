@@ -1,50 +1,50 @@
 import { useEffect, useState, useContext } from 'react'
-import Questions from './answers'
+import Answers from './answers'
 import styles from './quiz.module.css'
 import QuizContext from '../../store/quiz-context'
 import Advert from '../../components/quiz/advert'
 import Stopwatch from './stopwatch'
 import Image from 'next/image'
-const Quiz = ({ questions, title }) => {
-
+import Router from 'next/router'
+import Top from './top'
+const Quiz = ({ questions, title, id, name }) => {
     useEffect(() => {
-        setIndex(0)
         setSelected(false)
         setScore(0)
         setWrong([])
-        setFinished(false)
         setRunning(true)
         setAdvert(true)
+        setTime(0)
         setDisabled(true)
     }, [])
+
+    const index = parseInt(id)
     const quizCtx = useContext(QuizContext)
-    const { index,
-        setIndex,
+    const {
         translate,
         setTranslate,
         selected,
         setSelected,
-        score,
+        setTime,
         setScore,
         wrong,
         setWrong,
-        finished,
-        setFinished,
         setRunning,
         advert,
         setAdvert,
+        score,
         setDisabled } = quizCtx
 
     const next = () => index + 1 === questions.length ? handleFinish() : nextPage()
     const nextPage = () => {
         setSelected()
-        setIndex(index + 1)
+        Router.push(`/quiz/${name}/${index + 1}`)
     }
-
     const handleFinish = () => {
         setRunning(false)
-        setFinished(!finished)
+        Router.push(`/quiz/${name}/result`)
     }
+
 
     const correct = questions[index].answer
 
@@ -57,6 +57,8 @@ const Quiz = ({ questions, title }) => {
 
     const handleCheck = (i) => {
         setSelected(i);
+        console.log(i)
+        console.log(correct);
         if (i === correct) {
             setScore(score + 1)
         } else {
@@ -64,66 +66,29 @@ const Quiz = ({ questions, title }) => {
         }
     }
 
-
     return (
-        <div className={styles.main}>
-            <h1 style={{ textAlign: 'center' }}>{title}</h1>
-            <div className={styles.head}>
-                <div className={styles.lang}>
-                    <button onClick={() => setTranslate(!translate)}>Перевод</button>
-                    <span>Язык: {translate ? 'Русский' : 'Английский'}</span>
-                </div>
-                <div >
-                    <span>Вопрос <strong>{index + 1} из {questions.length}</strong></span>
-                    <span>Верные ответы: <strong>{score}</strong></span>
-                    <Stopwatch />
-                </div>
-            </div>
-            {finished ? wrong.length !== 0 ?
-                <>
-                    <h2>Неверные Ответы</h2>
-                    <p>Просмотрите вопросы на которые вы ответили неверно:</p>
-                    {wrong.map((n, i) => {
-                        return (
-                            <div className={styles.questions} key={i}>
-                                <div >
-                                    <h4>{translate ? questions[n].question.rus : questions[n].question.eng}</h4>
-                                </div>
-                                <div className="answers">
-                                    {questions[n].answers.map((answer, i) => {
-                                        return (
-                                            <div key={i} onClick={() => !selected && handleCheck(i + 1)} style={questions[n].answer === ++i ? { backgroundColor: "#498E3B", color: 'white' } : null} className="noselect">
-                                                <span >
-                                                    {translate ? answer.rus : answer.eng}
-                                                </span>
-                                            </div>
-                                        )
-                                    })}
-                                </div>
-                                <hr />
-                            </div>
-                        )
-                    })}
-                </>
-                : <h2>Вы прошли тест без ошибок.</h2>
-                :
-                <div className={styles.questions}>
-                    {
-                        index === 14 && advert ? <Advert />
-                            : <>
-                                <div className={styles.head}>
-                                    <h4>{translate ? questions[index].question.rus : questions[index].question.eng}</h4>
-                                </div>
-                                {console.log(questions[index].img)}
-                                <div style={{ display: 'flex', justifyContent: 'center' }}>{questions[index].img && <Image src={questions[index].img} height={212} width={222} />}</div>
-                                <Questions questions={questions} handleSelect={handleSelect} handleCheck={handleCheck} />
-                                <div className={styles.nav}>
-                                    <button onClick={next} disabled={!selected}>Дальше</button>
-                                </div>
-                            </>
-                    }
 
-                </div>}
+        <div className="quiz-main">
+            <h1 style={{ textAlign: 'center' }}>{title}</h1>
+            <Top count={questions.length} index={index} />
+
+            <div className={styles.questions}>
+                {
+                    index === 14 && advert ? <Advert />
+                        : <>
+                            <div className={styles.head}>
+                                <h4>{translate ? questions[index].question.rus : questions[index].question.eng}</h4>
+                            </div>
+                            {console.log(questions[index].img)}
+                            <div style={{ display: 'flex', justifyContent: 'center' }}>{questions[index].img && <Image src={questions[index].img} height={212} width={222} />}</div>
+                            <Answers questions={questions} handleSelect={handleSelect} handleCheck={handleCheck} index={index} />
+                            <div className={styles.nav}>
+                                <button onClick={next} disabled={!selected}>Дальше</button>
+                            </div>
+                        </>
+                }
+
+            </div>
         </div >
     )
 }
