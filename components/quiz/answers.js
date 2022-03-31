@@ -8,7 +8,7 @@ const Answers = ({ questions, handleCheck, handleSelect, index }) => {
 
     return (
         <div className="answers">
-            {questions[index].answers.map((answer, i) => {
+            {questions && questions[index].answers.map((answer, i) => {
 
 
                 return (
