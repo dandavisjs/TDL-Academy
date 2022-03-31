@@ -6,7 +6,7 @@ import Advert from '../../components/quiz/advert'
 import Stopwatch from './stopwatch'
 import Image from 'next/image'
 import Router from 'next/router'
-
+import Top from './top'
 const Quiz = ({ questions, title, id, name }) => {
     useEffect(() => {
         setSelected(false)
@@ -69,19 +69,8 @@ const Quiz = ({ questions, title, id, name }) => {
     return (
 
         <div className="quiz-main">
-
             <h1 style={{ textAlign: 'center' }}>{title}</h1>
-            <div className={styles.head}>
-                <div className="language">
-                    <button onClick={() => setTranslate(!translate)}>Перевод</button>
-                    <span>Язык: {translate ? 'Русский' : 'Английский'}</span>
-                </div>
-                <div >
-                    <span>Вопрос <strong>{index + 1} из {questions.length}</strong></span>
-                    <span>Верные ответы: <strong>{score}</strong></span>
-                    <Stopwatch />
-                </div>
-            </div>
+            <Top count={questions.length} index={index} />
 
             <div className={styles.questions}>
                 {
