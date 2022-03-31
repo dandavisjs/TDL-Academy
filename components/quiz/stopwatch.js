@@ -2,9 +2,8 @@ import { useEffect, useState, useContext } from 'react'
 import QuizContext from '../../store/quiz-context'
 
 const Stopwatch = () => {
-    const [time, setTime] = useState(0);
     const quizCtx = useContext(QuizContext)
-    const { running } = quizCtx
+    const { running, time, setTime } = quizCtx
 
     useEffect(() => {
         let interval;
