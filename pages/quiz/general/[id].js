@@ -5,7 +5,7 @@ import general from '../../../components/quiz/questions/general'
 export default function General(props) {
     const { id } = props
     if (!id) {
-        return <p>Загружается</p>
+        return <p>Загружается!</p>
     }
     return (
         <div >
