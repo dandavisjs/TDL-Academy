@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
 import combination from '../../../components/quiz/questions/combination'
 
-export default function Combination({ id }) {
+export default function Combination(props) {
     const { id } = props
     if (!id) {
         return <p>Загружается</p>
