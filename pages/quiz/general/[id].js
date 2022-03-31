@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
 import general from '../../../components/quiz/questions/general'
 
-export default function General({ id }) {
+export default function General(props) {
     const { id } = props
     if (!id) {
         return <p>Загружается</p>
