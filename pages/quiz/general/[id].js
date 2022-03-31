@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
 import general from '../../../components/quiz/questions/general'
 import { useRouter } from 'next/router'
-s
+
 export default function General({ id }) {
     const router = useRouter()
     if (router.isFallback) {
