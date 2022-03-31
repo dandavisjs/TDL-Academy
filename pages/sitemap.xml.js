@@ -21,7 +21,7 @@ export const getServerSideProps = async ({ res }) => {
       ].includes(staticPage);
     })
     .map((staticPagePath) => {
-      return `${BASE_URL}/${staticPagePath.replace('.js', '')}`;
+      return `${process.env.NEXT_PUBLIC_BASE_URL}/${staticPagePath.replace('.js', '')}`;
     });
 
 
