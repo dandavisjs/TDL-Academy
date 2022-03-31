@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
 import combination from '../../../components/quiz/questions/combination'
-import { useRouter } from 'next/router'
 
 export default function Combination({ id }) {
-    const router = useRouter()
-    if (router.isFallback) {
-        return <div>Loading...</div>
+    const { id } = props
+    if (!id) {
+        return <p>Загружается</p>
     }
     return (
         <div >
