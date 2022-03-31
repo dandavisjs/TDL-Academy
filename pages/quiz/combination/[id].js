@@ -36,8 +36,6 @@ export async function getStaticProps(context) {
 export async function getStaticPaths() {
     const ids = combination.quiz.map((question, i) => i)
     const pathsWithParams = ids.map((id) => ({ params: { id: String(id) } }))
-    console.log(ids.length);
-    console.log(combination.quiz.length);
     return {
         paths: pathsWithParams,
         fallback: false

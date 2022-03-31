@@ -7,7 +7,6 @@ const Stopwatch = () => {
 
     useEffect(() => {
         let interval;
-        console.log(running);
         if (running) {
             interval = setInterval(() => {
                 setTime((prevTime) => prevTime + 1000);
