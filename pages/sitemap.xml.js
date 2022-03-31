@@ -1,6 +1,6 @@
 
 import * as fs from "fs";
-import General from '../components/quiz/questions/general.json'
+import general from '../components/quiz/questions/general.json'
 const Sitemap = () => {
   return null;
 };
@@ -26,7 +26,7 @@ export const getServerSideProps = async ({ res }) => {
 
 
 
-  const dynamicPaths = await General.quiz.map((question, i) => {
+  const dynamicPaths = general.quiz.map((question, i) => {
 
     return `${process.env.NEXT_PUBLIC_BASE_URL}/quiz/general/${i}`
 
