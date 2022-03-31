@@ -1,5 +1,4 @@
 import Subscribe from '../subscribe/subscribe'
-import Link from 'next/link'
 
 const Support = ({ }) => {
 
