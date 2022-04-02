@@ -10,8 +10,8 @@ export default function General(props) {
     return (
         <div >
             <Head>
-                <title>General Knowledge - CDL Тесты с переводом на русский</title>
-                <meta name="description" content="Тесты CDL с переводом на русский." />
+                <title>General Knowledge - CDL-A Тесты с переводом на русский</title>
+                <meta name="description" content="Тесты CDL-A с переводом на русский." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

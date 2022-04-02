@@ -2,404 +2,574 @@
   "name": "combination",
   "quiz": [
     {
-      "answer": 1,
+      "answer": 2,
       "question": {
-        "eng": "Before you back under a trailer, make sure the:",
-        "rus": "Перед тем, как вернуться под прицеп, убедитесь, что:"
+        "eng": "Where should the tractor be when you inspect the landing gear after uncoupling the trailer?",
+        "rus": "Где должен быть Трак при осмотре шасси после отцепки трейлера?"
       },
       "answers": [
         {
-          "eng": "Trailer brakes are locked.",
-          "rus": "Тормоза прицепа заблокированы."
+          "eng": "With the fifth wheel directly beneath the kingpin",
+          "rus": "С пятым колесом прямо под шкворнем"
         },
         {
-          "eng": "Tractor protection valve is normal.",
-          "rus": "Защитный клапан трактора в норме."
+          "eng": "With the tractor frame under the trailer",
+          "rus": "Рама трака должна быть под трейлером"
         },
         {
-          "eng": "Air brakes are off.",
-          "rus": "Пневматические тормоза выключены."
+          "eng": "Completely cleared from the trailer",
+          "rus": "Вывести раму из под трейлера"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "While driving behind another vehicle, under good conditions, you should allow at least one second between your vehicle and the vehicle ahead for each_____feet of your vehicle length",
+        "rus": "Во время движения позади другого транспортного средства, при хороших условиях, вы должны придерживаться дистанции не менее одной секунды между своим автомобилем и транспортным средством впереди на каждые_____фут длины вашего автомобиля."
+      },
+      "answers": [
+        {
+          "eng": "10",
+          "rus": "10"
+        },
+        {
+          "eng": "20",
+          "rus": "20"
+        },
+        {
+          "eng": "30",
+          "rus": "30"
         }
       ]
     },
     {
       "answer": 2,
       "question": {
-        "eng": "You are coupling a tractor to a semi-trailer and have backed up but are not under it. What should you hook up before backing under?",
-        "rus": "Вы прицепляете тягач к полуприцепу и дали задний ход, но не находитесь под ним. Что вы должны подключить прежде чем отступить?"
+        "eng": "There are two things that a driver can do to prevent a rollover. They are: (1) keep the cargo as close to the ground as possible and (2): ",
+        "rus": "Есть две вещи, которые водитель может сделать, чтобы предотвратить опрокидывание: (1) держать груз как можно ближе к земле и (2):"
       },
       "answers": [
         {
-          "eng": "The electrical service cable.",
-          "rus": "Электрический служебный кабель."
+          "eng": "Keep both hands firmly on the steering wheel",
+          "rus": "Крепко держать обе руки на руле"
         },
         {
-          "eng": "The emergency and service air lines.",
-          "rus": "Аварийные и служебные воздуховоды."
+          "eng": "Go slow around turns",
+          "rus": "Ехать медленно на поворотах"
         },
         {
-          "eng": "Nothing: back up and lock the fifth wheel.",
-          "rus": "Ничего: дайте задний ход и заблокируйте седельно-сцепное устройство."
+          "eng": "Make sure that the brakes are properly adjusted",
+          "rus": "Убедиться что тормоза правильно отрегулированы."
         }
       ]
     },
     {
       "answer": 1,
       "question": {
-        "eng": "You should not back a tractor under a trailer until the whole air system is:",
-        "rus": "Вы не должны загонять трактор под прицеп до тех пор, пока вся воздушная система не будет:"
+        "eng": "The air brake leakage rate for a combination vehicle (engine off, brakes off) should not be more than ____ psi per minute.",
+        "rus": "Скорость утечки пневматических тормозов для комбинированного транспортного средства (двигатель выключен, тормоза выключены) не должна превышать ____ фунтов на квадратный дюйм в минуту."
       },
       "answers": [
         {
-          "eng": "At normal pressure.",
-          "rus": "При нормальном давлении"
+          "eng": "3",
+          "rus": "3"
         },
         {
-          "eng": "Bled down to half the maximum pressure.",
-          "rus": "Бросил давление до половины максимального."
-        },
-        {
-          "eng": "Between 60 and 80 psi.",
-          "rus": "От 60 до 80 фунтов на квадратный дюйм."
-        }
-      ]
-    },
-    {
-      "answer": 3,
-      "question": {
-        "eng": "You are coupling a semi-trailer to your tractor but have not yet backed under. The trailer is at the right height when:",
-        "rus": "Вы прицепляете к тягачу полуприцеп, но еще не сдали назад. Прицеп находится на нужной высоте когда."
-      },
-      "answers": [
-        {
-          "eng": "The kingpin is about 1 ¼ inches above the fifth wheel.",
-          "rus": "Шкворень находится примерно на 1 ¼ дюйма выше седельно-сцепного устройства."
-        },
-        {
-          "eng": "The end of the kingpin is even with the top of the fifth wheel.",
-          "rus": "Конец шкворня находится на одном уровне с верхней частью седельно-сцепного устройства."
-        },
-        {
-          "eng": "It will be raised slightly when the tractor is backed under it.",
-          "rus": "Он немного приподнимется, когда трактор подъедет задним ходом."
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "How should you test the tractor semi-trailer connection for security?",
-        "rus": "Как проверить надежность соединения тягача с полуприцепом?"
-      },
-      "answers": [
-        {
-          "eng": "Put the tractor in gear and pull ahead with a sharp jerk.",
-          "rus": "Переключите коробку передачб и резким рывком едьте вперед."
-        },
-        {
-          "eng": "Pull gently forward in low gear against the locked trailer brakes. Then look at it carefully.",
-          "rus": "Осторожно едьте вперед на низской передаче на заблокированных тормозов прицепа. Потом внимательно осмотрте."
-        },
-        {
-          "eng": "Rock the trailer back and forth with the trailer brakes locked.",
-          "rus": "Раскачивайте прицеп вперед и назад с заблокированными тормозами прицепа."
-        }
-      ]
-    },
-    {
-      "answer": 3,
-      "question": {
-        "eng": "If the service air line comes apart while you are driving a combination vehicle, but the emergency line stays together, what will happen right away?",
-        "rus": "Если во время движения на комбинированном автомобиле разорвался трубопровод служебного воздуха, а аварийный трубопровод остался вместе, что будет сразу?"
-      },
-      "answers": [
-        {
-          "eng": "The emergency tractor brakes will come on.",
-          "rus": "Сработают аварийные тормоза трактора."
-        },
-        {
-          "eng": "The trailer’s air tank will exhaust through the open line.",
-          "rus": "Воздушный бак трейлера опустошится через открытую линию."
-        },
-        {
-          "eng": "Nothing is likely to happen until you try to apply the brakes.",
-          "rus": "Ничего не произойдет, пока вы не попытаетесь нажать на тормоза."
-        }
-      ]
-    },
-    {
-      "answer": 1,
-      "question": {
-        "eng": "Which part of the kingpin should the locking jaws close around?",
-        "rus": "Вокруг какой части шкворня должны сомкнуться фиксирующие кулачки?"
-      },
-      "answers": [
-        {
-          "eng": "The shank",
-          "rus": "Шейка"
-        },
-        {
-          "eng": "The head",
-          "rus": "Голова"
-        },
-        {
-          "eng": "The base",
-          "rus": "Основа"
-        }
-      ]
-    },
-    {
-      "answer": 3,
-      "question": {
-        "eng": "When should you use the hand valve to park a combination vehicle?",
-        "rus": "Когда следует использовать ручной клапан для парковки комбинированного автомобиля?"
-      },
-      "answers": [
-        {
-          "eng": "To park at loading docks",
-          "rus": "Припарковаться у погрузочных доков"
-        },
-        {
-          "eng": "To park on a grade",
-          "rus": "Парковаться на уровне"
-        },
-        {
-          "eng": "Never",
-          "rus": "Никогда"
-        }
-      ]
-    },
-    {
-      "answer": 3,
-      "question": {
-        "eng": "The fifth wheel locking lever is not locked after the jaws close around the kingpin. This means that:",
-        "rus": "Рычаг блокировки седельно-сцепного устройства не блокируется после того, как захваты смыкаются вокруг шкворня. Это означает, что:"
-      },
-      "answers": [
-        {
-          "eng": "You can set the fifth wheel for weight balance.",
-          "rus": "Вы можете установить пятое колесо для балансировки веса."
-        },
-        {
-          "eng": "The parking lock is off and you may drive away.",
-          "rus": "Парковочный замок выключен, и вы можете уехать."
-        },
-        {
-          "eng": "The coupling is not right and should be fixed before driving the coupled unit.",
-          "rus": "Муфта неправильная и должна быть исправлена до начала движения сцепленного агрегата."
-        }
-      ]
-    },
-    {
-      "answer": 1,
-      "question": {
-        "eng": "You supply air to the trailer tanks by:",
-        "rus": "Вы подаете воздух в цистерны прицепа:"
-      },
-      "answers": [
-        {
-          "eng": "Pushing in the trailer air supply valve.",
-          "rus": "Вдавливание клапана подачи воздуха прицепа."
-        },
-        {
-          "eng": "Pulling out the trailer air supply valve.",
-          "rus": "Вытягивание клапана подачи воздуха прицепа."
-        },
-        {
-          "eng": "Connecting the service line glad hand.",
-          "rus": "Подключение сервисной линии с радостью."
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "You have coupled with a semi-trailer. In what position should you put the front trailer supports/landing gear before driving away?",
-        "rus": "Вы сцепились с полуприцепом. В какое положение следует ставить передние опоры прицепа/шасси прежде чем уехать?"
-      },
-      "answers": [
-        {
-          "eng": "Raised ½ way with the crank handle removed.",
-          "rus": "Поднят на ½ пути со снятой рукояткой"
-        },
-        {
-          "eng": "Fully raised with the crank handle secured in its bracket.",
-          "rus": "Полностью поднят, рукоятка закреплена в кронштейне."
-        },
-        {
-          "eng": "Three turns off the top with the crank handle secured in its bracket.",
-          "rus": "Три оборота сверху с рукояткой, закрепленной в кронштейне."
-        }
-      ]
-    },
-    {
-      "answer": 1,
-      "question": {
-        "eng": "In normal driving, some drivers use the hand valve before applying the brake pedal to prevent a jack-knife. Which of these statements are true?",
-        "rus": "При обычном вождении некоторые водители используют ручной клапан перед нажатием на педаль тормоза, чтобы предотвратить складывание. Какие из этих утверждений верны?"
-      },
-      "answers": [
-        {
-          "eng": "It should not be done.",
-          "rus": "Этого делать не следует."
-        },
-        {
-          "eng": "It results in less skidding than using the brake pedal alone.",
-          "rus": "Это приводит к меньшему заносу, чем при использовании только педали тормоза."
-        },
-        {
-          "eng": "It is the best way to brake and keep the truck in a straight line.",
-          "rus": "Это лучший способ затормозить и удержать грузовик на прямой."
-        }
-      ]
-    },
-    {
-      "answer": 3,
-      "question": {
-        "eng": "The air leakage rate for a combination vehicle (engine off, brakes off) should be less than ____ psi per minute.",
-        "rus": "Скорость утечки воздуха для комбинированного транспортного средства (двигатель выключен, тормоза выключены) должна быть менее ____ фунтов на квадратный дюйм в минуту."
-      },
-      "answers": [
-        {
-          "eng": "1",
-          "rus": "1"
+          "eng": "1/2",
+          "rus": "1/2"
         },
         {
           "eng": "2",
           "rus": "2"
-        },
-        {
-          "eng": "3",
-          "rus": "3"
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "Why should you be sure that the fifth wheel plate is greased as required?",
-        "rus": "Почему вы должны быть уверены, что пластина седельно-сцепного устройства смазана в соответствии с требованиями?"
-      },
-      "answers": [
-        {
-          "eng": "To ensure good electrical connections.",
-          "rus": "Для обеспечения хорошего электрического соединения."
-        },
-        {
-          "eng": "To prevent steering problems.",
-          "rus": "Во избежание проблем с рулевым управлением."
-        },
-        {
-          "eng": "To reduce heat and noise.",
-          "rus": "Для уменьшения тепла и шума."
-        }
-      ]
-    },
-    {
-      "answer": 1,
-      "question": {
-        "eng": "A driver crossed the air lines when hooking up to an old trailer. What will happen?",
-        "rus": "Водитель пересек воздушные линии, прицепляясь к старому прицепу. Что случится?"
-      },
-      "answers": [
-        {
-          "eng": "If the trailer has no spring brakes, you can drive away, but you will not have trailer brakes.",
-          "rus": "Если у прицепа нет пружинных тормозов, вы можете уехать, но у вас не будет тормозов прицепа."
-        },
-        {
-          "eng": "The hand valve will apply the tractor brakes instead of the trailer brakes.",
-          "rus": "Ручной клапан задействует тормоза трактора вместо тормозов прицепа."
-        },
-        {
-          "eng": "The brake pedal will work the trailer spring brakes instead of the air brakes.",
-          "rus": "Педаль тормоза приводит в действие пружинные тормоза прицепа вместо пневматических тормозов."
-        }
-      ]
-    },
-    {
-      "answer": 1,
-      "question": {
-        "eng": "Air lines on a combination vehicle are often colored to keep them from getting mixed up. The emergency line is ____; the service line is ____.",
-        "rus": "Воздушные магистрали на комбинированных транспортных средствах часто окрашивают, чтобы они не перепутались. Экстренная линия____; сервисная линия____"
-      },
-      "answers": [
-        {
-          "eng": "Red;blue ",
-          "rus": "Красний;Синий"
-        },
-        {
-          "eng": "Black; Yellow",
-          "rus": "Черный; Желтый"
-        },
-        {
-          "eng": "Blue; Red",
-          "rus": "Синий; Красный"
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "There are two things that a driver can do to prevent a roll-over. They are; (1) Keep the cargo as close to the ground as possible; and (2)",
-        "rus": "Есть две вещи, которые водитель может сделать, чтобы предотвратить опрокидывание. Они есть; (1) Держите груз как можно ближе к земле; и (2)"
-      },
-      "answers": [
-        {
-          "eng": "Make sure that the brakes are properly adjusted.",
-          "rus": "Убедитесь, что тормоза правильно отрегулированы."
-        },
-        {
-          "eng": "Go slowly around turns.",
-          "rus": "Медленно проходите повороты."
-        },
-        {
-          "eng": "Keep the fifth wheel’s free play as tight as possible.",
-          "rus": "Максимально уменьшите свободный ход седельно-сцепного устройства."
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "After you supply air to the trailer, make sure the air lines are not crossed and the trailer brakes are working. This is done by?",
-        "rus": "После того, как вы подали воздух в прицеп, убедитесь, что воздуховоды не перекрещиваются и тормоза прицепа работают. Этот делается?"
-      },
-      "answers": [
-        {
-          "eng": "Turning on the parking brakes from the cab.",
-          "rus": "Включение стояночных тормозов из кабины."
-        },
-        {
-          "eng": "Applying and releasing the trailer brakes and listening for brake sounds.",
-          "rus": "Задействуйте и отпустите тормоза прицепа и прислушайтесь к звукам тормозов."
-        },
-        {
-          "eng": "Lifting the brake pedal.",
-          "rus": "Поднятие педали тормоза."
         }
       ]
     },
     {
       "answer": 3,
       "question": {
-        "eng": "Semi-trailers made before 1975 that are equipped with air brakes:",
-        "rus": "Полуприцепы, изготовленные до 1975 г. и оборудованные пневматическими тормозами:"
+        "eng": "The higher the center of gravity of your truck, the:",
+        "rus": "Чем выше центр тяжести вашего грузовика, тем:"
       },
       "answers": [
         {
-          "eng": "Are easier to brake because they are heavier.",
-          "rus": "Их легче тормозить, потому что они тяжелее."
+          "eng": "More stable while turning",
+          "rus": "Стабильнее при повороте"
         },
         {
-          "eng": "Usually need a glad hand converter.",
-          "rus": "Обычно нужен конвертер с радостной рукой."
+          "eng": "Easier to turn around the corner",
+          "rus": "Легче свернуть за угол"
         },
         {
-          "eng": "Often do not have spring brakes.",
-          "rus": "Часто не имеют пружинных тормозов."
+          "eng": "Easier to turn over",
+          "rus": "Легче перевернуться"
         }
       ]
     },
+    {
+      "answer": 2,
+      "question": {
+        "eng": "If the service line comes apart while you are driving a combination vehicle, but the emergency line stays together, what will happen right away?",
+        "rus": "Если сервисная линия между трейлером и траком разорвется, когда вы управляете комбинированным транспортным средством, а аварийная линия останется целой, что произойдет сразу?"
+      },
+      "answers": [
+        {
+          "eng": "The emergency trailer brakes will come on",
+          "rus": "Сработают аварийные тормоза трейлера"
+        },
+        {
+          "eng": "Nothing is likely to happen until you try to apply the brakes",
+          "rus": "Вероятно, ничего не произойдет, пока вы не попытаетесь нажать на тормоза"
+        },
+        {
+          "eng": "The trailer's tank will exhaust through the open line",
+          "rus": "Бак трейлера будет вытекать через открытую линию"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Gladhands are usually connecting which of these?",
+        "rus": "Что из этого обычно соединяют разъем Gladhand?"
+      },
+      "answers": [
+        {
+          "eng": "Service and emergency air lines from the vehicle to the trailer",
+          "rus": "Сервисные и аварийные воздушные линии от трака к трейлеру"
+        },
+        {
+          "eng": "Kingpin from the trailer to the locking jaws of the fifth wheel",
+          "rus": "Шкворня от трейлера до стопорных челюстей опорно-сцепного устройства"
+        },
+        {
+          "eng": "Electric lines from the tractor to trailer",
+          "rus": "Электрические линии от трака к трейлеру"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "A driver crosses the air lines when hooking up to an old trailer. What will happen?",
+        "rus": "Водитель пересекает воздушные линии, когда прицепляется к старому трейлеру. Что случится?"
+      },
+      "answers": [
+        {
+          "eng": "The hand valve will apply the tractor brakes instead of the trailer brakes",
+          "rus": "Ручной клапан задействует тормоза трака вместо тормозов трейлера"
+        },
+        {
+          "eng": "The brake lights will come on when the brake pedal is pressed",
+          "rus": "Стоп-сигналы загораются при нажатии на педаль тормоза"
+        },
+        {
+          "eng": "If the trailer has no spring brakes, you could drive away but you would not have trailer brakes",
+          "rus": "Если у трейлера нет пружинных тормозов, вы сможете ездить, но тормоза от трейлера не будут работать"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "The hand valve should be used:",
+        "rus": "Ручной клапан следует использовать:"
+      },
+      "answers": [
+        {
+          "eng": "To test the trailer brakes",
+          "rus": "Для проверки тормозов трейлера"
+        },
+        {
+          "eng": "Only with a foot brake",
+          "rus": "Только с педальным тормозом"
+        },
+        {
+          "eng": "As a parking brake",
+          "rus": "В качестве стояночного тормоза"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "question": {
+        "eng": "You are about to back your tractor under a semi trailer. The trailer is at the right height when the:",
+        "rus": "Вы собираетесь загнать трак под трейлер. Трейлер находится на правильной высоте, если:"
+      },
+      "answers": [
+        {
+          "eng": "End of the kingpin is even with the top of the fifth wheel",
+          "rus": "Конец шкворня находится на одном уровне с верхней частью опорно-сцепного устройства"
+        },
+        {
+          "eng": "Trailer will be lifted slightly when the tractor backs under it",
+          "rus": "Трейлер немного приподнимется, когда тягач заедет под него"
+        },
+        {
+          "eng": "Kingpin is about 1 1/4 inches above the fifth wheel",
+          "rus": "Шкворень находится примерно на 1 1/4 дюйма выше опорно-сцепного устройства"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Your emergency air line breaks or gets pulled apart while you are driving. The loss of pressure will cause the:",
+        "rus": " Ваш аварийный воздуховод рвется или разрывается во время вождения. Падение давления вызывает:"
+      },
+      "answers": [
+        {
+          "eng": "Emergency trailer brakes to come on",
+          "rus": "Аварийные тормоза трейлера включаются"
+        },
+        {
+          "eng": "Air compressor to unload instead of pumping air",
+          "rus": "Воздушный компрессор для разгружает воздух вместо нагнетания воздуха"
+        },
+        {
+          "eng": "Trailer supply valve to open",
+          "rus": "В трейлере открывается клапан подачи воздуха"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "If the spring brakes are not released when you pushed the trailer air supply valve you should:",
+        "rus": "Если пружинные тормоза не отпускаются при нажатии на клапан подачи воздуха трейлера, необходимо:"
+      },
+      "answers": [
+        {
+          "eng": "Check air line connection",
+          "rus": "Проверить соединение воздушной линии"
+        },
+        {
+          "eng": "Cross the airlines",
+          "rus": "Пересечь воздушные линии"
+        },
+        {
+          "eng": "Check electrical cable",
+          "rus": "Проверить электрический кабель"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Air brake equipped trailers made before 1975:",
+        "rus": "Трейлеры с пневматическим тормозом, изготовленные до 1975 года:"
+      },
+      "answers": [
+        {
+          "eng": "Are not required to have spring brakes",
+          "rus": "Не требуются пружинные тормоза"
+        },
+        {
+          "eng": "Cannot be legally operated on interstate highways",
+          "rus": "Нельзя законно эксплуатировать на межгосударственных автомагистралях"
+        },
+        {
+          "eng": "Usually need a glad hand converter",
+          "rus": "Обычно нужен коннектор Gladhand"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "There are two things that a driver can do to prevent a rollover: They are: (1) go slow around turns, and (2):",
+        "rus": "Есть две вещи, которые водитель может сделать, чтобы предотвратить опрокидывание: (1) медленно проезжать повороты и (2):"
+      },
+      "answers": [
+        {
+          "eng": "Keep the cargo as close to the ground as possible",
+          "rus": "Держить груз как можно ближе к земле"
+        },
+        {
+          "eng": "Keep both hands firmly on the steering wheel",
+          "rus": "Крепко держать обе руки на руле"
+        },
+        {
+          "eng": "Make sure that the brakes are properly balanced",
+          "rus": "Убедиться, что тормоза правильно сбалансированы"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "After connecting the air lines but before backing under the trailer you should:",
+        "rus": "После присоединения воздушной линии, но перед тем, как заехать под трейлер, необходимо:"
+      },
+      "answers": [
+        {
+          "eng": "Walk around the rig to be sure that it is clear",
+          "rus": "Обойдите вокруг трейлера, чтобы убедиться, что путь свободен"
+        },
+        {
+          "eng": "Make sure that the trailer brakes are off",
+          "rus": "Убедитесь, что тормоза трейлера выключены"
+        },
+        {
+          "eng": "Supply air to the trailer system, then pull out the air supply knob",
+          "rus": "Подайте воздух в систему трейлера, затем вытяните ручку подачи воздуха"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Which part of the kingpin should the locking jaw close around?",
+        "rus": "Вокруг какой части шкворня должна смыкаться запирающая челюсть?"
+      },
+      "answers": [
+        {
+          "eng": "The shank",
+          "rus": "Хвостовая"
+        },
+        {
+          "eng": "The head",
+          "rus": "Головная"
+        },
+        {
+          "eng": "The base",
+          "rus": "Основная"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "text",
+        "rus": "Какое расстояние должно оставаться между верхним и нижним седельно-сцепным устройством после сцепки?"
+      },
+      "answers": [
+        {
+          "eng": "None",
+          "rus": "Никакого"
+        },
+        {
+          "eng": "Just enough to sit on",
+          "rus": "Сколько необходимо для посадки"
+        },
+        {
+          "eng": "1/4 inch.",
+          "rus": "1/4 дюйма"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "You have pushed the trailer air supply valve. You should not back a tractor under a trailer until the whole air system is:",
+        "rus": "Вы нажали на клапан подачи воздуха трейлера. Запрещается задвигать трак под трейлер до тех пор, пока вся воздушная система не будет:"
+      },
+      "answers": [
+        {
+          "eng": "Between 60 and 80 psi",
+          "rus": "От 60 до 80 фунтов на квадратный дюйм"
+        },
+        {
+          "eng": "Empty",
+          "rus": "Пустой"
+        },
+        {
+          "eng": "At normal pressure",
+          "rus": "При нормальном давлении"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "You are coupling a tractor to the semitrailer; you have connected the airlines. Before backing under the trailer, you should:",
+        "rus": "Вы прицепляете трак к трейлеру; Вы подключили воздушные линии. Перед тем, как заехать под трейлер, необходимо:"
+      },
+      "answers": [
+        {
+          "eng": "Supply air to the trailer system, then pull out the air supply knob.",
+          "rus": "Подайть воздух в систему трейлера, затем вытянуть ручку подачи воздуха."
+        },
+        {
+          "eng": "Pull ahead to test the gladhands connection.",
+          "rus": "Проехать немного вперед, чтобы проверить соединение Gladhand"
+        },
+        {
+          "eng": "Make sure that the trailer brakes are off.",
+          "rus": "Убедиться, что тормоза трейлера выключены"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "You are coupling a tractor to a semitrailer and have backed up, but are not under it. What should you hook up before backing under?",
+        "rus": "Вы прицепляете тарк к трейлеру и дали задний ход, но не находитесь под ним. Что вы должны подключить, прежде дать задний ход?"
+      },
+      "answers": [
+        {
+          "eng": "Nothing. Back up and lock the fifth wheel",
+          "rus": "Ничего. Дайте задний ход и защелкните опорно-сцепное устройство"
+        },
+        {
+          "eng": "The electrical service cable",
+          "rus": "Электрический сервисный кабель"
+        },
+        {
+          "eng": "The emergency and service air lines",
+          "rus": "Аварийные и сервисные воздушные линии"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Tractor with a ______ trailer requires the shortest amount of stopping distance.",
+        "rus": "Кратчайший тормозной путь у трака с ______ трейлером."
+      },
+      "answers": [
+        {
+          "eng": "Fully loaded",
+          "rus": "Полностью загруженным"
+        },
+        {
+          "eng": "Partly loaded",
+          "rus": "Частично загруженным"
+        },
+        {
+          "eng": "Empty",
+          "rus": "Пустым"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "After you have coupled the trailer you should raise the landing gear by using:",
+        "rus": "После присоединения трейлера необходимо поднять шасси, используя:"
+      },
+      "answers": [
+        {
+          "eng": "Intermediate gear",
+          "rus": "Среднюю передачу"
+        },
+        {
+          "eng": "High gear",
+          "rus": "Высокую передачу"
+        },
+        {
+          "eng": "Low gear",
+          "rus": "Низкую передачу"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "You supply air to the trailer tanks by:",
+        "rus": "Вы подаете воздух в цистерны трейлера:"
+      },
+      "answers": [
+        {
+          "eng": "Pulling out the trailer air supply valve",
+          "rus": "Вытягиванием клапана подачи воздуха трейлера"
+        },
+        {
+          "eng": "Connecting the service line gladhands",
+          "rus": "Подключением Gladhand сервисной линии"
+        },
+        {
+          "eng": "Pushing in the trailer air supply valve",
+          "rus": "Нажав на клапан подачи воздуха трейлера"
+        }
+      ]
+    },
+    
+    {
+      "answer": 3,
+      "question": {
+        "eng": "There are two things that a driver can do to prevent a rollover. They are: (1) go slow around turns, and (2):",
+        "rus": "Есть две вещи, которые водитель может сделать, чтобы предотвратить опрокидывание: (1) медленные повороты и (2):"
+      },
+      "answers": [
+        {
+          "eng": "Keep the fifth wheel free play as small as possible",
+          "rus": "Опорно-сцепное устройство должно шататься как можно меньше"
+        },
+        {
+          "eng": "Make sure that the brakes are properly balanced",
+          "rus": "Убедиться, что тормоза правильно сбалансированы"
+        },
+        {
+          "eng": "Keep the cargo as close to the ground as possible",
+          "rus": "Держать груз как можно ближе к земле"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Why should you be sure that the fifth wheel plate is greased as required?",
+        "rus": "Почему вы должны быть уверены, что опорно-сцепное устройство смазано надлежащим образом?"
+      },
+      "answers": [
+        {
+          "eng": "To prevent steering problems",
+          "rus": "Для предотвращения проблем с рулевым управлением"
+        },
+        {
+          "eng": "To ensure a good electrical connection",
+          "rus": "Для обеспечения хорошего электрического соединения"
+        },
+        {
+          "eng": "To reduce heat and noise",
+          "rus": "Для уменьшения перегрева и шума"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "question": {
+        "eng": "Your emergency air line breaks or gets pulled apart while you are driving. The loss of pressure will cause the:",
+        "rus": "Ваша аварийная воздушная линия рвется или разрывается во время вождения. Падение давления вызывает:"
+      },
+      "answers": [
+        {
+          "eng": "Air compressor to unload instead of pumping air",
+          "rus": "Воздушный компрессор разгружает воздух вместо загрузки"
+        },
+        {
+          "eng": "Emergency trailer brakes to come on",
+          "rus": "Аварийные тормоза трейлера включаются"
+        },
+        {
+          "eng": "Tractor's air to dump into the trailer tank through the service line",
+          "rus": "Воздух трака сбрасывать в цистерну трейлера через сервисную линию"
+        }
+      ]
+    }, 
+    {
+      "answer": 3,
+      "question": {
+        "eng": "When connecting the gladhands, press the two seals with the couplers together at what degree to each other?",
+        "rus": "При соединении gladhand нужно прижать два уплотнения муфтами друг к другу под каким углом?"
+      },
+      "answers": [
+        {
+          "eng": "45 degrees",
+          "rus": "text"
+        },
+        {
+          "eng": "180 degrees",
+          "rus": "text"
+        },
+        {
+          "eng": "90 degrees",
+          "rus": "text"
+        }
+      ]
+    },
+    
     {
       "answer": 3,
       "question": {
@@ -408,226 +578,658 @@
       },
       "answers": [
         {
-          "eng": "Always delay braking a heavy vehicle until you have no other choice.",
-          "rus": "Всегда откладывайте торможение тяжелого транспортного средства до тех пор, пока у вас не останется другого выбора."
+          "eng": "Light vehicles need more braking power to stop than heavy ones",
+          "rus": "Легким автомобилям для остановки требуется больше тормозного усилия, чем тяжелым"
         },
         {
-          "eng": "Light vehicles need more braking power to stop than heavy ones.",
-          "rus": "Легким автомобилям для остановки требуется больше тормозного усилия, чем тяжелым."
+          "eng": "The brakes and suspension systems of combination vehicles work best with a light load",
+          "rus": "text"
         },
         {
-          "eng": "“Bobtail” tractors can take longer to stop than a combination vehicle loaded to the maximum gross weight.",
-          "rus": "Тракторы типа «бобтейл» могут остановиться дольше, чем автопоезда, загруженные до максимальной полной массы."
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "Why should you lock the tractor glad hands (or dummy couplers) to each other when you are not towing a trailer?",
-        "rus": "Почему вы должны блокировать тяги трактора (или заглушки) друг к другу, когда вы не буксируете трейлер?"
-      },
-      "answers": [
-        {
-          "eng": "The connected brake circuit becomes a back up air tank.",
-          "rus": "Подключенный тормозной контур становится резервным воздушным резервуаром."
-        },
-        {
-          "eng": "It will keep dirt and water out of the lines.",
-          "rus": "Это предотвратит попадание грязи и воды в линии."
-        },
-        {
-          "eng": "If you did not, you could never build system pressure.",
-          "rus": "Если бы вы этого не сделали, вы бы никогда не смогли создать давление в системе."
+          "eng": "Bobtail tractors can take longer to stop than a combination vehicle loaded to maximum gross weight",
+          "rus": "«Бобтейл» тракам (без трейлера) требуется больше времени для остановки, чем траку с трейлером, загруженным до максимальной полной массы"
         }
       ]
     },
     {
       "answer": 1,
       "question": {
-        "eng": "You are coupling a tractor and semi-trailer and have connected the air lines. Before backing under the trailer, you should:",
-        "rus": "Вы сцепляете тягач и полуприцеп и соединили воздуховоды. Прежде чем залезть под трейлер, вы должны:"
+        "eng": "When backing a tractor under a trailer you should:",
+        "rus": "При подаче трака задним ходом под трейлер следует:"
       },
       "answers": [
         {
-          "eng": "Supply air to the trailer system, then pull out the air supply knob to lock the trailer brakes.",
-          "rus": "Подайте воздух в систему прицепа, затем потяните ручку подачи воздуха, чтобы заблокировать тормоза прицепа."
+          "eng": "Always use the lowest reverse gear",
+          "rus": "Всегда используйте самую низкую передачу заднего хода"
         },
         {
-          "eng": "Make sure that the trailer brakes are off.",
-          "rus": "Убедитесь, что тормоза прицепа выключены."
+          "eng": "Always approach the trailer at a slight angle",
+          "rus": "Всегда приближайтесь к трейлеру под небольшим углом"
         },
         {
-          "eng": "Apply the brakes twice to alert others.",
-          "rus": "Дважды нажмите на тормоз, чтобы предупредить других."
+          "eng": "Do it quickly to ensure that the kingpin is locked into the fifth wheel",
+          "rus": "Сделайте это быстро, чтобы шкворень зафиксировался в опорно-сцепное устройстве"
         }
       ]
     },
     {
       "answer": 2,
       "question": {
-        "eng": "The hand valve should be used:",
-        "rus": "Ручной клапан следует использовать:"
+        "eng": "After the trailer has been coupled to the tractor, the tractor protection control valve should be placed in what position?",
+        "rus": "После того, как трейлер был присоединен к траку, в какое положение должен быть установлен клапан управления защитой трака?"
       },
       "answers": [
         {
-          "eng": "Only with the foot brake.",
-          "rus": "Только с ножным тормозом."
+          "eng": "Down position",
+          "rus": "Нижняя позиция"
         },
         {
-          "eng": "To test the trailer brakes.",
-          "rus": "Для проверки тормозов прицепа"
+          "eng": "Normal position",
+          "rus": "Нормальная позиция"
         },
         {
-          "eng": "Only when the trailer is fully loaded. ",
-          "rus": "Только при полной загрузке прицепа."
+          "eng": "Up position",
+          "rus": "Верхняя позиция"
+        }
+      ]
+    },
+    
+    {
+      "answer": 2,
+      "question": {
+        "eng": "The fifth wheel locking lever is not locked after the jaws close around the kingpin. This means that:",
+        "rus": "Рычаг блокировки опорно-сцепного устройства не блокируется после того, как захваты смыкаются вокруг шкворня. Это означает, что:"
+      },
+      "answers": [
+        {
+          "eng": "The trailer will not swivel on the fifth wheel",
+          "rus": "Трейлер не будет поворачивается на опорно-сцепном устройстве"
+        },
+        {
+          "eng": "The coupling is not right and should be fixed before driving the coupled unit",
+          "rus": "Муфта соединена неправильно и должна быть исправлена до начала движения"
+        },
+        {
+          "eng": "The parking lock is off, and you may drive away",
+          "rus": "Парковочный замок выключен, и вы можете уехать"
         }
       ]
     },
     {
       "answer": 1,
       "question": {
-        "eng": "The safety catch for the fifth wheel locking lever must be ____ for a coupling to be complete.",
-        "rus": "Предохранитель рычага блокировки седельно-сцепного устройства ____  чтобы муфта была полной. "
+        "eng": "The iron trailer supports are up and the trailer is resting on the tractor. Make sure:",
+        "rus": "Железные опоры трейлера подняты и трейлер опирается на трак. Убедись:"
       },
       "answers": [
         {
-          "eng": "Over the locking lever.",
-          "rus": "Над фиксирующим рычагом."
+          "eng": "There is enough clearance between the tractor frame and the landing gear",
+          "rus": "Между рамой трака и шасси достаточный зазор"
         },
         {
-          "eng": "Under the locking lever.",
-          "rus": "Под запирающим рычагом."
+          "eng": "There is enough clearance between the upper and lower fifth wheels",
+          "rus": "Между верхним и нижним опорно-сцепным устройствами имеется достаточный зазор"
         },
         {
-          "eng": "Through the locking lever.",
-          "rus": "Через фиксирующий рычаг."
+          "eng": "The safety latch is in unlocked position",
+          "rus": "Защелка безопасности находится в разблокированном положении"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "When you are uncoupling a loaded trailer, you should lower the landing gear until it:",
+        "rus": "При отцепке груженого трейлера следует опускать шасси до тех пор, пока оно:"
+      },
+      "answers": [
+        {
+          "eng": "Make firm contact with the ground, turn crank a few extra turns",
+          "rus": "Установит плотный контакт с землей, и вы должны повернуть рукоятку еще несколько оборотов"
+        },
+        {
+          "eng": "Reaches the ground",
+          "rus": "Дойдет до земли"
+        },
+        {
+          "eng": "Make contact with the ground and leave the trailer off the fifth wheel",
+          "rus": "Установит контакт с землей и вы дожны отсоеденить трейлер от опорно-сцепного устройства"
+        }
+      ]
+    },
+    
+    {
+      "answer": 3,
+      "question": {
+        "eng": "What will happen if the air lines are crossed when you hook up to an old trailer?",
+        "rus": "Что произойдет, если воздушные линии пересекутся, когда вы подцепите старый трейлер?"
+      },
+      "answers": [
+        {
+          "eng": "The brake lights will come on when the brake pedal is pressed",
+          "rus": "Стоп-сигналы загораются при нажатии на педаль тормоза"
+        },
+        {
+          "eng": "The hand valve will apply the tractor brakes instead of the trailer brakes",
+          "rus": "Ручной клапан задействует тормоза трака вместо тормозов трейлера"
+        },
+        {
+          "eng": "If the trailer has no spring brakes, you could drive away but you would not have trailer brakes",
+          "rus": "Если у трейлера нет пружинных тормозов, вы можете уехать, но у трейлера не будут работать тормоза"
+        }
+      ]
+    },
+    
+    {
+      "answer": 1,
+      "question": {
+        "eng": "To stop a trailer skid you should:",
+        "rus": "Для остановки заноса трейлера необходимо"
+      },
+      "answers": [
+        {
+          "eng": "Release the brakes",
+          "rus": "Отпустить тормоза"
+        },
+        {
+          "eng": "Counter-steer",
+          "rus": "Рулить в обратном направлении"
+        },
+        {
+          "eng": "Use the trailer hand brakes",
+          "rus": "Использовать ручной тормоз трейлера"
+        }
+      ]
+    },
+    
+    {
+      "answer": 1,
+      "question": {
+        "eng": "The air lines on a combination vehicle are often colored to prevent them from mixing up. The emergency line is _____, the service line is _________.",
+        "rus": "Воздушные линии на комбинированных транспортных средствах часто окрашены, чтобы они не перепутались. Аварийная- _____ линия , сервисная - _________ линия ."
+      },
+      "answers": [
+        {
+          "eng": "Red, blue",
+          "rus": "Красная, синяя"
+        },
+        {
+          "eng": "Blue, red",
+          "rus": "Синяя, Красная"
+        },
+        {
+          "eng": "Black, yellow",
+          "rus": "Черная, желтая"
+        }
+      ]
+    },
+    
+    {
+      "answer": 2,
+      "question": {
+        "eng": "Semi-trailers made before 1975 that are equipped with air brakes:",
+        "rus": "Трейлеры выпуска до 1975 г., оборудованные пневматическими тормозами:"
+      },
+      "answers": [
+        {
+          "eng": "Have only a service air line",
+          "rus": "Имеют только сервисную воздушную линию"
+        },
+        {
+          "eng": "Often do not have spring brakes",
+          "rus": "Часто не имеют пружинных тормозов"
+        },
+        {
+          "eng": "Usually need a glad hand converter",
+          "rus": "Обычно нужен конвертер Gladhand"
+        }
+      ]
+    },
+    
+    {
+      "answer": 1,
+      "question": {
+        "eng": "The air leakage rate for a combination vehicle (engine off, brakes on) should not be more than _____ psi per minute.",
+        "rus": "Скорость утечки воздуха для транспортного средства с трейлером (двигатель выключен, тормоза включены) не должна превышать _____ фунтов на квадратный дюйм в минуту."
+      },
+      "answers": [
+        {
+          "eng": "4",
+          "rus": "4"
+        },
+        {
+          "eng": "3",
+          "rus": "3"
+        },
+        {
+          "eng": "2",
+          "rus": "2"
+        }
+      ]
+    },
+    
+    {
+      "answer": 1,
+      "question": {
+        "eng": "Compared to a straight truck or bus, there are ______ things to inspect in combination vehicles.",
+        "rus": "По сравнению с обычным грузовиком или автобусом, в транспортных средствах с трейлером есть ______ вещей, которые нужно проверить."
+      },
+      "answers": [
+        {
+          "eng": "More",
+          "rus": "Больше"
+        },
+        {
+          "eng": "Fewer",
+          "rus": "Меньше"
+        },
+        {
+          "eng": "The same number",
+          "rus": "Одинаковое число"
+        }
+      ]
+    },
+    
+    {
+      "answer": 1,
+      "question": {
+        "eng": "When checking the trailer emergency brakes, the tractor protection control valve should be placed in what position?",
+        "rus": "При проверке аварийных тормозов трейлера в какое положение должен быть поставлен контрольный кран трака?"
+      },
+      "answers": [
+        {
+          "eng": "Emergency",
+          "rus": "Аварийное"
+        },
+        {
+          "eng": "Neutral",
+          "rus": "Нейтральное"
+        },
+        {
+          "eng": "Normal",
+          "rus": "Нормальное"
+        }
+      ]
+    },
+    
+    {
+      "answer": 1,
+      "question": {
+        "eng": "In normal driving, some drivers use the hand valve before the brake pedal to prevent a jack-knife. Which of the statements is true?",
+        "rus": "При обычном вождении некоторые водители используют ручной клапан перед тем как использовать педаль тормоза, чтобы предотвратить jack-knife складывание. Какое из утверждений верно?"
+      },
+      "answers": [
+        {
+          "eng": "It should not be done",
+          "rus": "Этого делать не следует"
+        },
+        {
+          "eng": "It is the best way to brake and keep the truck in a straight line",
+          "rus": "Это лучший способ затормозить и удержать грузовик на прямой"
+        },
+        {
+          "eng": "It results in less skidding than using the brake pedal alone",
+          "rus": "Это приводит к меньшему заносу, чем при использовании только педали тормоза"
+        }
+      ]
+    },
+
+    {
+      "answer": 1,
+      "question": {
+        "eng": "While checking if the trailer is securely coupled to the tractor, the landing gears should be:",
+        "rus": "При проверке надежности сцепки трейлера с траком стойки шасси должны быть:"
+      },
+      "answers": [
+        {
+          "eng": "Slightly raised",
+          "rus": "Немного приподняты"
+        },
+        {
+          "eng": "Fully raised",
+          "rus": "Полностью подняты"
+        },
+        {
+          "eng": "Fully lowered",
+          "rus": "Полностью опущены"
         }
       ]
     },
     {
       "answer": 3,
       "question": {
-        "eng": "The front trailer supports/landing gear are up and the trailer is resting on the tractor. Make sure:",
-        "rus": "Передние опоры/шасси прицепа подняты, прицеп опирается на тягач. Убедитесь:"
+        "eng": "Air and electrical lines from the tractor to the trailer should be:",
+        "rus": "Воздушные и электрические линии от трака к трейлеру должны быть:"
       },
       "answers": [
         {
-          "eng": "There is enough clearance between the tops of the tractor tires and the nose of the trailer.",
-          "rus": "Между верхними частями шин трактора носовой частью прицепа имеется достаточный зазор."
+          "eng": "Resting on the frame of the tractor",
+          "rus": "Опираяться на раму трака"
         },
         {
-          "eng": "There is enough clearance between the tractor frame and the landing gear.",
-          "rus": "Между рамой трактора и шасси имеется достаточный зазор."
+          "eng": "Fully tight but away a little looped",
+          "rus": "Плонты, но немного зациклены"
         },
         {
-          "eng": "Both A and B are correct.",
-          "rus": "И А, и Б верны."
+          "eng": "Secured but with enough loop to turn",
+          "rus": "Защищенный, но с достаточной петлей для поворота"
         }
       ]
     },
+    
+    {
+      "answer": 3,
+      "question": {
+        "eng": "You have a major leak in the service line, and you put on the brakes. Service air will escape and cause the:",
+        "rus": "У вас большая утечка в сервисной линии, и вы тормозите. Рабочий воздух будет выходить и:"
+      },
+      "answers": [
+        {
+          "eng": "Trailer tank pressure to be lost",
+          "rus": "Спад давление в баке трейлера"
+        },
+        {
+          "eng": "Tractor spring brakes to lock up",
+          "rus": "Пружинные тормоза трака блокируются"
+        },
+        {
+          "eng": "Trailer emergency brakes to come on",
+          "rus": "Аварийные тормоза трейлера включаются"
+        }
+      ]
+    },
+    
     {
       "answer": 1,
       "question": {
-        "eng": "Your emergency air line breaks or gets pulled apart while you are driving. The loss of pressure will cause the:",
-        "rus": "Ваш аварийный воздуховод рвется или разрывается во время вождения. Падение давления вызывает:"
+        "eng": "A tractor with a _______ trailer, requires the most amount of stopping distance.",
+        "rus": "Длиннейший тормозной путь у трака с ______ трейлером."
       },
       "answers": [
         {
-          "eng": "Emergency trailer brakes to come on.",
-          "rus": "Включаются аварийные тормоза прицепа."
+          "eng": "Empty",
+          "rus": "Пустым"
         },
         {
-          "eng": "Air compressor to unload instead of pumping air.",
-          "rus": "Воздушный компрессор разгрузится вместо накачки воздуха."
+          "eng": "Fully loaded",
+          "rus": "Полностью загруженным"
         },
         {
-          "eng": "Trailer supply valve to open.",
-          "rus": "Клапан подачи прицепа откроется."
-        }
-      ]
-    },
-    {
-      "answer": 1,
-      "question": {
-        "eng": "You have a major leak in the service line and you put on the brakes.",
-        "rus": "У вас большая утечка в сервисной линии, и вы тормозите."
-      },
-      "answers": [
-        {
-          "eng": "Trailer emergency brakes to come on.",
-          "rus": "Включаются аварийные тормоза прицепа."
-        },
-        {
-          "eng": "Trailer tank pressure to be lost.",
-          "rus": "Падает давление в баке прицепа."
-        },
-        {
-          "eng": "Tractor spring brakes to lock on.",
-          "rus": "Пружинные тормоза трактора блокируются."
-        }
-      ]
-    },
-    {
-      "answer": 2,
-      "question": {
-        "eng": "You are driving a combination vehicle when the trailer breaks away, pulling apart both air lines. You would expect:",
-        "rus": "Вы едете на комбинированном автомобиле, когда прицеп срывается, разрывая обе воздушные линии. Последствия:"
-      },
-      "answers": [
-        {
-          "eng": "The tractor to lose all air pressure.",
-          "rus": "Трактор потерял все давление воздуха."
-        },
-        {
-          "eng": "The tractor protection valve to close.",
-          "rus": "Защитный клапан трактора закрывается"
-        },
-        {
-          "eng": "The trailer supply valve to stay open.",
-          "rus": "Клапан подачи прицепа останется открытым"
+          "eng": "Lightly loaded",
+          "rus": "Слегка загруженным"
         }
       ]
     },
     {
       "answer": 3,
       "question": {
-        "eng": "You are about to back your tractor under a semi-trailer. The trailer is at the right height when the:",
-        "rus": "Вы собираетесь загнать свой тягач под полуприцеп. Прицеп находится на правильной высоте, если:"
+        "eng": "You should not back a tractor under a trailer until the air system is:",
+        "rus": "Запрещается завозить трак под трейлер до тех пор, пока воздушная система:"
       },
       "answers": [
         {
-          "eng": "Trailer landing gear is fully extended.",
-          "rus": "Шасси прицепа полностью выпущено."
+          "eng": "Empty",
+          "rus": "Пустая"
         },
         {
-          "eng": "End of the kingpin is even with the top of the fifth wheel.",
-          "rus": "Конец шкворня находится на одном уровне с верхней частью седельно-сцепного устройства."
+          "eng": "Between 60 and 80 psi",
+          "rus": "От 60 до 80 фунтов на квадратный дюйм."
         },
         {
-          "eng": "Trailer will be lifted slightly when the tractor backs under it.",
-          "rus": "Прицеп немного приподнимется, когда трактор заедет под него."
+          "eng": "At normal pressure",
+          "rus": "При нормальном давлении"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "After you lock the kingpin into the fifth wheel, you should check the connection by:",
+        "rus": "После блокировки шкворня в опорно-сцепном устройстве необходимо проверить соединение:"
+      },
+      "answers": [
+        {
+          "eng": "Pulling the tractor ahead gently with the trailer brakes locked",
+          "rus": "Осторожно проехать на траке вперед с заблокированными тормозами трейлера"
+        },
+        {
+          "eng": "Backing up with the trailer brakes released",
+          "rus": "Двигаться задним ходом с отпущенными тормозами трейлера"
+        },
+        {
+          "eng": "Pulling forward 50 feet, turning right and then left",
+          "rus": "Проехать вперед на 50 футов, поворот направо, а затем налево"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "When should you use the hand valve to park a combination vehicle?",
+        "rus": "Когда следует использовать ручной клапан для парковки транспортного средства с трейлером?"
+      },
+      "answers": [
+        {
+          "eng": "Never",
+          "rus": "Никогда"
+        },
+        {
+          "eng": "To park on a grade",
+          "rus": "Для парковки на уклоне"
+        },
+        {
+          "eng": "To park at loading docks",
+          "rus": "Для парковки у погрузочных доков"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "The safety latch for the fifth wheel locking lever must be ________ for a coupling to be complete",
+        "rus": "Рычаг безопасности для блокировки опорно-сцепного устройства должен быть ________, чтобы соединение было завершено."
+      },
+      "answers": [
+        {
+          "eng": "Under the locking lever",
+          "rus": "Под фиксирующим рычагом"
+        },
+        {
+          "eng": "Over the locking lever",
+          "rus": "Над фиксирующим рычагом"
+        },
+        {
+          "eng": "Straight up",
+          "rus": "Сверху"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "After you supply air to the trailer, make sure the air lines are not crossed and the trailer brakes are working. This is done by:",
+        "rus": "После того, как вы подали воздух в трейлер, убедитесь, что воздушные линии не перекрещиваются и тормоза трейлера работают. Это делается:"
+      },
+      "answers": [
+        {
+          "eng": "Applying and releasing the trailer brakes and listening for the sound of the brake",
+          "rus": "Задействов и отпустить тормоза трейлера и прислушавшись к звуку тормоза"
+        },
+        {
+          "eng": "Lifting the brake pedal",
+          "rus": "Отпустив педаль тормоза"
+        },
+        {
+          "eng": "Watching your mirrors to see if the trailer lights come on",
+          "rus": "Смотрев в зеркала, для того чтобы раглядеть, горят ли огни трейлера"
         }
       ]
     },
     {
       "answer": 2,
       "question": {
-        "eng": "How much space should be between the upper and lower fifth wheel after coupling? ",
-        "rus": "Какое расстояние должно быть между верхним и нижним седельно-сцепным устройством после сцепки?"
+        "eng": "Before you back under a trailer, make sure that:",
+        "rus": "Перед тем, как снова заехать под трейлер, убедитесь, что:"
       },
       "answers": [
         {
-          "eng": "At least ½ inch.",
-          "rus": "Минимум ½ дюйма."
+          "eng": "The air supply knob is in",
+          "rus": "Ручка подачи воздуха находится внутри"
         },
         {
-          "eng": "None.",
-          "rus": "Никакого."
+          "eng": "The trailer brakes are locked",
+          "rus": "Тормоза трейлера заблокированы"
         },
         {
-          "eng": "Just enough to see light through it.",
-          "rus": "Достаточно, чтобы увидеть свет сквозь."
+          "eng": "The tractor protection valve is normal",
+          "rus": "Защитный клапан трака исправен"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "How should you test the tractor-semitrailer connection for security?",
+        "rus": "Как проверить безопасность соединения трака с трейлером?"
+      },
+      "answers": [
+        {
+          "eng": "Pull gently forward in low gear against the locked trailer brakes then look at it carefully",
+          "rus": "Осторожно проехав вперед на пониженной передаче с заблокированными тормозами трейлера, затем внимательно осмотрите"
+        },
+        {
+          "eng": "Look at it carefully",
+          "rus": "Осмотрите внимательно"
+        },
+        {
+          "eng": "Rock the trailer back and forth with the trailer brakes locked",
+          "rus": "Раскачивайте трейлер вперед и назад с заблокированными тормозами трейлера"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "question": {
+        "eng": "The front trailer supports are up and the trailer is resting on the tractor. Make sure:",
+        "rus": "Передние опоры трейлера подняты, трейлер опирается на трак. Убедись:"
+      },
+      "answers": [
+        {
+          "eng": "There is enough clearance between the top of the tractor tires and nose of the trailer",
+          "rus": "Между верхней частью шин трака и передней частью трейлера имеется достаточный зазор"
+        },
+        {
+          "eng": "Both options are correct",
+          "rus": "Оба варианта верны"
+        },
+        {
+          "eng": "There is enough clearance between the tractor frame and the landing gear",
+          "rus": "Между рамой трака и шасси имеется достаточный зазор"
+        }
+      ]
+    },
+    {
+      "answer": 2,
+      "question": {
+        "eng": "To unlock the fifth wheel, the locking lever should be placed in the ______ position.",
+        "rus": "Для разблокировки опорно-сцепного устройства рычаг блокировки должен находиться в положении - ______."
+      },
+      "answers": [
+        {
+          "eng": "Closed",
+          "rus": "Закрыто"
+        },
+        {
+          "eng": "Open",
+          "rus": "Открыто"
+        },
+        {
+          "eng": "Neutral",
+          "rus": "Нейтрально"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "The tractor protection valve will close, and the trailer emergency brakes will come on when there is a major leak in the _____ brake line.",
+        "rus": "Защитный клапан трака закроется, и аварийные тормоза трейлера сработают, если в _____ тормозной линии произойдет серьезная утечка."
+      },
+      "answers": [
+        {
+          "eng": "Parking",
+          "rus": "Пароковчной"
+        },
+        {
+          "eng": "Service",
+          "rus": "Сервисной"
+        },
+        {
+          "eng": "Emergency",
+          "rus": "Аварийной"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "When coupling, the proper position of the fifth wheel is:",
+        "rus": "При сцепке правильное положение опорно-сцепного устройства:"
+      },
+      "answers": [
+        {
+          "eng": "Tilted down toward the end of the trailer",
+          "rus": "Наклонен вниз к концу трейлера"
+        },
+        {
+          "eng": "Level of the ground",
+          "rus": "На уровне земли"
+        },
+        {
+          "eng": "Tilted up toward the end of the trailer",
+          "rus": "Наклонен к концу трейлера"
+        }
+      ]
+    },
+    {
+      "answer": 3,
+      "question": {
+        "eng": "When uncoupling the trailer, after you shut off the trailer air supply and lock the trailer brakes, you should:",
+        "rus": "При отцепке трейлера после отключения подачи воздуха трейлера и блокировки тормозов трейлера следует:"
+      },
+      "answers": [
+        {
+          "eng": "Lower trailer landing gear",
+          "rus": "Нижняя стойка трейлера"
+        },
+        {
+          "eng": "Put on your tractor parking brakes",
+          "rus": "Включите стояночный тормоз трака"
+        },
+        {
+          "eng": "Back up gently to ease pressure on the fifth wheel",
+          "rus": "Аккуратно дайте задний ход, чтобы ослабить давление на опорно-сцепное устройство"
+        }
+      ]
+    },
+    {
+      "answer": 1,
+      "question": {
+        "eng": "You are driving a combination vehicle when the trailer breaks away, pulling apart both air lines. You expect the trailer brakes to come on and:",
+        "rus": "Вы едете на траке с трейлером, когда трейлер срывается, разрывая обе воздушные линии. Тормоза трейлера сработают и:"
+      },
+      "answers": [
+        {
+          "eng": "The tractor protection valve to close",
+          "rus": "Защитный клапан трака закроется"
+        },
+        {
+          "eng": "The trailer supply valve to stay open",
+          "rus": "Клапан подачи трейлера останется открытым"
+        },
+        {
+          "eng": "The tractor to lose air pressure",
+          "rus": "Трак потеряет подачу воздушного давления"
         }
       ]
     }

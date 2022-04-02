@@ -26,8 +26,8 @@ function MyApp({ Component, pageProps }) {
     <QuizContextProvider>
       <Layout>
         <Head>
-          <meta property="og:title" content="CDL тесты с переводом на русский язык - academy.truckdriver.help" key="ogtitle" />
-          <meta property="og:description" content="Бесплатные CDL тесты для подготовки, с переводом на русский язык. Используйте бесплатные тесты для того чтобы проверить свои знания и подготовиться к экзаменам Class-A Commercial Driver’s License в США. Тесты имитируют типы вопросов, которые могут возникнуть при сдаче тестов в местном офисе DMV." key="ogdesc" />
+          <meta property="og:title" content="CDL-A тесты с переводом на русский язык - academy.truckdriver.help" key="ogtitle" />
+          <meta property="og:description" content="Бесплатные CDL-A тесты для подготовки, с переводом на русский язык. Используйте бесплатные тесты для того чтобы проверить свои знания и подготовиться к экзаменам Class-A Commercial Driver’s License в США. Тесты имитируют типы вопросов, которые могут возникнуть при сдаче тестов в местном офисе DMV." key="ogdesc" />
           <meta property="og:image" content="https://academy.truckdriver.help/images/truckdriverhelp-og.jpg" key="ogimage" />
         </Head>
         {/* Google analytics scripts */}
