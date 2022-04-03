@@ -1,5 +1,5 @@
 
-import * as fs from "fs";
+import fs from 'fs'
 import general from '../components/quiz/questions/general.json'
 const Sitemap = () => {
   return null;

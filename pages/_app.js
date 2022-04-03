@@ -10,16 +10,25 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
   useEffect(() => {
+    const handleRouteChange = url => {
+      window.gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {
+        page_path: url,
+        cookieFlags: 'SameSite=None; Secure'
+      })
+    }
     import('react-facebook-pixel')
       .then((x) => x.default)
       .then((ReactPixel) => {
         ReactPixel.init(`${process.env.NEXT_PUBLIC_FACEBOOK_ID}`) // facebookPixelId
         ReactPixel.pageView()
-
         router.events.on('routeChangeComplete', () => {
           ReactPixel.pageView()
+          handleRouteChange
         })
       })
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
   }, [router.events])
 
   return (

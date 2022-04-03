@@ -1,19 +1,19 @@
 import Head from 'next/head'
 import styles from './index.module.css'
 import Link from 'next/link'
-import Subscribe from '../components/subscribe/subscribe'
+
 import Support from '../components/layout/support'
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>CDL-A тесты с переводом на русский язык - academy.truckdriver.help</title>
+        <title>CDL тесты с переводом на русский язык - academy.truckdriver.help</title>
         <meta name="description" content="Тесты CDL-A с переводом на русский." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.main}>
-        <h1>CDL-A тесты с переводом на русский язык</h1>
+        <h1>CDL тесты с переводом на русский язык</h1>
         <p>Бесплатные CDL-A тесты для подготовки, <em>с переводом на русский язык</em>. Используйте бесплатные тесты для того чтобы проверить свои знания и подготовиться к экзаменам Class-A Commercial Driver’s License в США. Тесты имитируют типы вопросов, которые могут возникнуть при сдаче тестов в местном офисе DMV.</p>
         <p>Выберите тест:</p>
         <div className={styles.list}>
