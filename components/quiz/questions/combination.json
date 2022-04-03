@@ -340,7 +340,7 @@
     {
       "answer": 1,
       "question": {
-        "eng": "text",
+        "eng": "How much space should be allowed between the upper and lower fifth wheel after coupling?",
         "rus": "Какое расстояние должно оставаться между верхним и нижним седельно-сцепным устройством после сцепки?"
       },
       "answers": [
@@ -557,15 +557,15 @@
       "answers": [
         {
           "eng": "45 degrees",
-          "rus": "text"
+          "rus": "45 градусов"
         },
         {
           "eng": "180 degrees",
-          "rus": "text"
+          "rus": "180 градусов"
         },
         {
           "eng": "90 degrees",
-          "rus": "text"
+          "rus": "90 градусов"
         }
       ]
     },
@@ -583,7 +583,7 @@
         },
         {
           "eng": "The brakes and suspension systems of combination vehicles work best with a light load",
-          "rus": "text"
+          "rus": "Тормоза и система подвески у траков с трейлерами лучше всего работают с легким грузом."
         },
         {
           "eng": "Bobtail tractors can take longer to stop than a combination vehicle loaded to maximum gross weight",
