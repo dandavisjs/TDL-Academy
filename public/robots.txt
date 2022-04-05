@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://academy.truckdriver.help
+
+# Sitemaps
+Sitemap: https://academy.truckdriver.help/sitemap.xml
