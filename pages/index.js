@@ -22,7 +22,7 @@ export default function Home() {
           <Link href="/quiz/airbrakes/0"><a>Air Brakes</a></Link>
         </div>
         <div>
-          <p style={{ color: "#D35058" }}>Платформа работает в бета-тестовом режиме. Если вы обнаружили неполадки, вы можете оповестить нас по электронной почте: <strong>contact{`<собака>`}truckdriver.help</strong> <br />Либо через Телеграм <strong><a href="https://t.me/tdhsupport" target="_blank">@TDHSupport</a></strong></p>
+          <p style={{ color: "#D35058" }}>Платформа работает в бета-тестовом режиме. Если вы обнаружили неполадки, вы можете оповестить нас по электронной почте: <strong>contact{`<собака>`}truckdriver.help</strong> <br />Либо через Телеграм <strong><a href="https://t.me/tdhsupport" target="_blank" rel="noreferrer">@TDHSupport</a></strong></p>
           <p style={{ color: "#D35058" }}>Мы работаем над пополнением базы вопросов в тестах - планируем обновить базу в апреле.</p>
         </div>
         <p>Тесты основаны на федеральных правилах. В разных штатах правила могут слегка разлечаться, но общая информация для всех штатов одинакова.</p>
