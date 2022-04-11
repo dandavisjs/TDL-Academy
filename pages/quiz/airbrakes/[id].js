@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
-import airbrakes from '../../../components/quiz/questions/airbrakes'
+import airbrakes from '../../../data/questions/airbrakes'
 
 export default function Airbrakes(props) {
     const { id } = props

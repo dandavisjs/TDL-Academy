@@ -1,0 +1,15 @@
+.main {
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 3px;
+}
+.nav > div {
+  padding: 10px 25px;
+  background-color: #eeeef5;
+  cursor: pointer;
+}
