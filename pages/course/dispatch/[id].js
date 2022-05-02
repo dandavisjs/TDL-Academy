@@ -41,7 +41,7 @@ export default function Dispatch(props) {
         <div className={classes.main}>
             <div>
                 <h2>Бесплатные видео курсы диспетчера в США</h2>
-                <p>Вторая половина курса будет доступна в июне.</p>
+                <p>Вторая половина курса, а также дополнительные ресурсы будут доступны в июне.</p>
             </div>
             <Player videoId={Dispatcher.items[id].id.videoId} onEnd={playNext} />
             <div className={classes.nav}>
