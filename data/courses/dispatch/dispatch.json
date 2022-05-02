@@ -7,7 +7,7 @@
             "snippet": {
                 "title": "Вступление"
             },
-            "about":"Терминология для диспетчеров"
+            "about":"О курсе"
             
         },
         {
@@ -45,16 +45,16 @@
             "snippet": {
                 "title": "ELD (Electronic Logging Device)"
             },
-            "about":"Терминология для диспетчеров"
+            "about":"Electronic Logging Device"
         },
         {
             "id": {
                 "videoId": "CJ5F9lY5nHU"
             },
             "snippet": {
-                "title": "Untitled (2012 Remaster)"
+                "title": "Роль Диспетчера"
             },
-            "about":"Терминология для диспетчеров"
+            "about":"Роль диспетчера"
         }
     ]
 }
