@@ -39,6 +39,12 @@ export default function Dispatch(props) {
     }
     return (
         <div className={classes.main}>
+
+            <Head>
+                <title>Бесплатные курсы диспетчера в США.</title>
+                <meta name="description" content="Тесты CDL-A с переводом на русский." />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div>
                 <h2>Бесплатные видео курсы диспетчера в США</h2>
                 <p>Вторая половина курса, а также дополнительные ресурсы будут доступны в июне.</p>
