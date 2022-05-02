@@ -14,7 +14,9 @@ export default function Dispatch(props) {
     }
 
     const playNext = () => {
-        if (Dispatcher.items.length > 0) {
+        console.log(id);
+        console.log(Dispatcher.items.length);
+        if (parseInt(id) + 1 < Dispatcher.items.length) {
             Router.push(`/course/dispatch/${parseInt(id) + 1}`)
         }
     }
