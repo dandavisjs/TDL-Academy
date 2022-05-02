@@ -1,15 +1,28 @@
 .main {
-  background-color: white;
-  border-radius: 5px;
-  padding: 40px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.main > :first-child {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.main > :first-child > :nth-child(2) {
+	color: red;
 }
 
 .nav {
-  display: flex;
-  gap: 3px;
+	display: flex;
+	gap: 3px;
+	margin-bottom: 15px;
 }
 .nav > div {
-  padding: 10px 25px;
-  background-color: #eeeef5;
-  cursor: pointer;
+	padding: 10px 25px;
+	background-color: #eeeef5;
+	cursor: pointer;
 }

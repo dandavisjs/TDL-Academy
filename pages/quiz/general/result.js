@@ -2,7 +2,7 @@
 import { useContext } from 'react'
 import QuizContext from '../../../store/quiz-context'
 import Top from '../../../components/quiz/top'
-import general from '../../../data/questions/general'
+import general from '../../../data/quiz/general'
 
 export default function General() {
     const quizCtx = useContext(QuizContext)

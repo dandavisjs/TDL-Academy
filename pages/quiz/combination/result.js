@@ -2,7 +2,7 @@
 import { useContext } from 'react'
 import QuizContext from '../../../store/quiz-context'
 import Top from '../../../components/quiz/top'
-import combination from '../../../data/questions/combination'
+import combination from '../../../data/quiz/combination'
 
 export default function Combination() {
     const quizCtx = useContext(QuizContext)

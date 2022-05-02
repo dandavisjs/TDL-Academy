@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
-import combination from '../../../data/questions/combination'
+import combination from '../../../data/quiz/combination'
 
 export default function Combination(props) {
     const { id } = props

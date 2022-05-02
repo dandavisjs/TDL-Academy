@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Quiz from '../../../components/quiz/quiz'
-import general from '../../../data/questions/general'
+import general from '../../../data/quiz/general'
 
 export default function General(props) {
     const { id } = props

@@ -1,8 +1,7 @@
-
 import { useContext } from 'react'
 import QuizContext from '../../../store/quiz-context'
 import Top from '../../../components/quiz/top'
-import airbrakes from '../../../components/quiz/questions/airbrakes'
+import airbrakes from '../../../data/quiz/airbrakes'
 
 export default function Airbrakes() {
     const quizCtx = useContext(QuizContext)
