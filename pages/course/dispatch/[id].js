@@ -5,6 +5,8 @@ import Player from '../../../components/course/player'
 import Router from 'next/router'
 import Link from 'next/link'
 import classes from './id.module.css'
+import Head from 'next/head'
+
 export default function Dispatch(props) {
     const [nav, setNav] = useState(0)
 

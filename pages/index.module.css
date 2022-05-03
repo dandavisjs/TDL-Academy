@@ -1,56 +1,53 @@
 .main {
-    max-width: 800px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+	max-width: 800px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
 }
 
 .main > h1 {
-    text-align: center;
+	text-align: center;
 }
 
 .work {
-    background-color: #F7F7FC;
-    max-width: 600px;
-    text-align: center;
-    padding: 10px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 10px;
+	background-color: #f7f7fc;
+	max-width: 600px;
+	text-align: center;
+	padding: 10px 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border-radius: 10px;
 }
 
 .work > h4 {
-    color: #3E3E78;
-    text-decoration: underline;
+	color: #3e3e78;
+	text-decoration: underline;
 }
 
-
-
 .list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 15px;
 }
 
 .list > a {
-    background-color: #F7F7FC;
-    color: black;
-    border-radius: 10px;
-    padding: 15px;
-    max-width: 300px;
-    min-width: 200px;
-    text-align: center;
+	background-color: #f7f7fc;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	max-width: 300px;
+	min-width: 200px;
+	text-align: center;
 }
 
-
 @media screen and (max-width: 768px) {
-    .list {
-        flex-direction: column;
-    }
+	.list {
+		flex-direction: column;
+	}
 }
