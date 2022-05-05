@@ -5,6 +5,7 @@ export default function Player(props) {
     const videoURL = "https://www.youtube.com/watch?v=" + props.videoId
     return (
         <div className={styles.container}>
+
             <ReactPlayer
                 url={videoURL}
                 playing={true}

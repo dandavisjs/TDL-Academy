@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import '../styles/globals.css'
 import { QuizContextProvider } from '../store/quiz-context';
+import { NavContextProvider } from '../store/nav-context';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import Layout from '../components/layout/layout'
 import Head from 'next/head'
@@ -33,20 +34,21 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <QuizContextProvider>
-      <Layout>
-        <Head>
-          <meta property="og:title" content="CDL-A тесты с переводом на русский язык - academy.truckdriver.help" key="ogtitle" />
-          <meta property="og:description" content="Бесплатные CDL-A тесты для подготовки, с переводом на русский язык. Используйте бесплатные тесты для того чтобы проверить свои знания и подготовиться к экзаменам Class-A Commercial Driver’s License в США. Тесты имитируют типы вопросов, которые могут возникнуть при сдаче тестов в местном офисе DMV." key="ogdesc" />
-          <meta property="og:image" content="https://academy.truckdriver.help/images/truckdriverhelp-og.jpg" key="ogimage" />
-        </Head>
-        {/* Google analytics scripts */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      <NavContextProvider>
+        <Layout>
+          <Head>
+            <meta property="og:title" content="CDL-A тесты с переводом на русский язык - academy.truckdriver.help" key="ogtitle" />
+            <meta property="og:description" content="Бесплатные CDL-A тесты для подготовки, с переводом на русский язык. Используйте бесплатные тесты для того чтобы проверить свои знания и подготовиться к экзаменам Class-A Commercial Driver’s License в США. Тесты имитируют типы вопросов, которые могут возникнуть при сдаче тестов в местном офисе DMV." key="ogdesc" />
+            <meta property="og:image" content="https://academy.truckdriver.help/images/truckdriverhelp-og.jpg" key="ogimage" />
+          </Head>
+          {/* Google analytics scripts */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
@@ -54,11 +56,13 @@ function MyApp({ Component, pageProps }) {
                     page_path: window.location.pathname,
                   });
                 `,
-          }}
-        />
-        <Component {...pageProps} />
-      </Layout>
+            }}
+          />
+          <Component {...pageProps} />
+        </Layout>
+      </NavContextProvider>
     </QuizContextProvider>
+
   )
 }
 

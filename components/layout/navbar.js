@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { useContext } from 'react'
 import styles from './navbar.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import NavItems from './navItems'
+import NavContext from '../../store/nav-context'
 
 export default function Navbar() {
-    const [mobile, setMobile] = useState(false)
+
+    const navCtx = useContext(NavContext)
+    const { mobile, setMobile } = navCtx
 
     return (
         <nav className={styles.navbar}>
@@ -17,7 +20,7 @@ export default function Navbar() {
             <ul>
                 <NavItems />
             </ul>
-            <i onClick={() => setMobile(!mobile)} className="bi bi-list bu-m-menu"></i>
+            <i onClick={setMobile} className="bi bi-list bu-m-menu"></i>
             {mobile && <div className="mobile-nav">
                 <ul>
                     <NavItems />

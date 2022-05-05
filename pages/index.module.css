@@ -46,6 +46,10 @@
 	text-align: center;
 }
 
+.list > a > i {
+	margin-right: 5px;
+}
+
 @media screen and (max-width: 768px) {
 	.list {
 		flex-direction: column;

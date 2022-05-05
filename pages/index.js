@@ -14,10 +14,12 @@ export default function Home() {
 
       <div className={styles.main}>
         <h1>Бесплатные ресурсы для логистической индустрии США</h1>
-        <p>Обучающие ресурсы для дальнобойщиков, диспетчеров и компаний оперирующие в логистической индустрии США. Платформа с видео курсами, CDL тестами с переводом на русский, а также прочей полезной информацией.</p>
+        <p>Обучающие ресурсы для дальнобойщиков, диспетчеров и компаний, оперирующих в логистической индустрии США. Платформа с видео курсами, CDL тестами с переводом на русский язык, а также прочей полезной информацией.</p>
         <div className={styles.list}>
-          <Link href="/quiz/"><a>CDL Тесты</a></Link>
-          <Link href="/course/dispatch/0"><a>Видео Курсы</a></Link>
+          <Link href="/quiz/"><a><i className="bi bi-file-earmark-text-fill"></i>
+            CDL Тесты</a></Link>
+          <Link href="/course/dispatch/0"><a><i className="bi bi-play-circle-fill"></i>
+            Видео Курсы</a></Link>
         </div>
         <div>
           <p style={{ color: "#D35058" }}>Платформа работает в бета-тестовом режиме. Если вы обнаружили неполадки, вы можете оповестить нас по электронной почте: <strong>contact{`<собака>`}truckdriver.help</strong> <br />Либо через Телеграм <strong><a href="https://t.me/tdhsupport" target="_blank" rel="noreferrer">@TDHSupport</a></strong></p>
