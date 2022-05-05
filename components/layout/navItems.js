@@ -11,7 +11,7 @@ export default function NavItems() {
             <li>
                 <Link href={{ pathname: `/course/dispatch/0` }}>
                     <a onClick={setMobile} style={{ cursor: 'pointer' }}>
-                        <i className="bi bi-file-earmark-text"></i>Видео Курсы
+                        <i className="bi bi-play"></i>Видео Курсы
                     </a>
                 </Link>
             </li>
