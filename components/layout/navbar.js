@@ -12,14 +12,13 @@ export default function Navbar() {
     // const activeNotification = notificationCtx.notification;
     useEffect(() => {
         const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked area is not within the menu,
-            // then close the menu
-            if (mobile &&
-                mobileRef.current &&
-                !mobileRef.current.contains(e.target)) {
-                setMobile()
-            }
-
+						// If the menu is open and the clicked area is not within the menu,
+						// then close the menu
+						if (mobile &&
+								mobileRef.current &&
+								!mobileRef.current.contains(e.target)) {
+								setMobile()
+						}
         }
         document.addEventListener("mousedown", checkIfClickedOutside)
 
@@ -39,8 +38,8 @@ export default function Navbar() {
             <ul>
                 <NavItems />
             </ul>
-            <i onClick={setMobile} ref={mobileRef} className="bi bi-list bu-m-menu"></i>
-            {mobile && <div className="mobile-nav">
+            <i onClick={setMobile}  className="bi bi-list bu-m-menu"></i>
+            {mobile && <div ref={mobileRef} className="mobile-nav">
                 <ul>
                     <NavItems />
                 </ul>

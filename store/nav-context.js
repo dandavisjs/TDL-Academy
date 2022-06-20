@@ -6,7 +6,7 @@ const NavContext = createContext({
 })
 
 export function NavContextProvider(props) {
-  const [activeMobile, setActiveMobile] = useState()
+  const [activeMobile, setActiveMobile] = useState(false)
 
 
   function setMobileHandler() {

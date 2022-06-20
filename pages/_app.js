@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-                  window.dataLayer = window.dataLayer || [];
+                  window.dataLayёer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
                   gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
